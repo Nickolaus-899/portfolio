@@ -1,8 +1,11 @@
 import React from 'react';
+import {useTranslation} from "react-i18next";
 
 const Hello = () => {
+  const { t } = useTranslation();
+
   return (
-      <div>Hello from EPJS Project</div>
+      <div>{t('epjs-hello')}</div>
   );
 };
 
