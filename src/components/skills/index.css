@@ -1,0 +1,46 @@
+@import "./css/languageSkills.css";
+@import "./css/education.css";
+@import "./css/hobby.css";
+
+.skills-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.skill {
+    margin: 1vw 2vw 1vw;
+    max-width: 30vw;
+}
+
+.skill h1 {
+    display: inline-block;
+    width: auto;
+    cursor: default;
+
+    font-size: 2.5vw;
+
+    font-weight: normal;
+}
+
+.skill h1::after {
+    background-color: red;
+    height: 3px;
+    bottom: -0.2vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .skills-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill h1 {
+        font-size: 3vh;
+    }
+
+    .skill {
+        max-width: 80vw;
+    }
+}

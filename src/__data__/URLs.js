@@ -1,4 +1,5 @@
 export const URLs = {
     home: "/",
-    epjs: "/epjs",
+    epjs: "/project",
+    textyle: "/textyle",
 }

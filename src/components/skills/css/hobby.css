@@ -1,0 +1,25 @@
+.hobby-container {
+    max-width: 20vw;
+    margin-bottom: 50px;
+
+    display: block;
+    flex-direction: column;
+}
+
+.hobby-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hobby-title h3 {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .hobby-container {
+        max-width: 100vw;
+    }
+}

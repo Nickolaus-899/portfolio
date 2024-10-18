@@ -1,0 +1,82 @@
+.education {
+    margin-bottom: 2vw;
+    background-color: #536161;
+
+    padding: 20px 20px 30px;
+
+    box-shadow: 0 5px 3px #505050;
+    border-radius: 30px;
+
+    transition: transform 0.2s ease-in, box-shadow 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.edu {
+    text-decoration: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5vw;
+}
+
+.education:hover {
+    transform: translate(2px, -3px);
+    box-shadow: 0 10px 7px #505050;
+}
+
+.edu h3, p {
+    transition: color 0.3s ease-in;
+
+    font-weight: bold;
+}
+
+.edu h3 {
+    font-size: 1.5vw;
+}
+
+.education:hover h3, .education:hover p {
+    color: white;
+}
+
+.edu-lyc {
+    background-color: rgba(121, 143, 243, 0.8);
+}
+
+.edu-lyc h3, .edu-lyc p {
+    color: rgb(27, 55, 241);
+}
+
+.edu-uni {
+    background-color: rgba(122, 172, 113, 0.8);
+}
+
+.edu-uni h3, .edu-uni p {
+    color: rgb(25, 85, 15);
+}
+
+.edu-hsk {
+    background-color: rgba(118, 61, 170, 0.8);
+}
+
+.edu-hsk h3, .edu-hsk p {
+    color: rgb(50, 21, 73);
+}
+
+.edu-sch {
+    background-color: rgba(179, 102, 13, 0.8);
+}
+
+.edu-sch h3, .edu-sch p {
+    color: rgb(99, 56, 6);
+}
+
+@media only screen and (max-width: 800px) {
+    .education {
+        margin-bottom: 3vh;
+    }
+
+    .edu h3 {
+        font-size: 2vh;
+    }
+}

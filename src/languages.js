@@ -29,6 +29,6 @@ i18n
         interpolation: {
             escapeValue: false,
         },
-    });
+    }).then(() => {});
 
 export default i18n;

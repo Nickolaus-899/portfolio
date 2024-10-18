@@ -1,4 +1,6 @@
 {
-  "welcome": "Hallo!",
-  "epjs-hello": "Das ist EPJS"
+  "de": "Deutsch",
+  "ru": "Russisch",
+  "en": "Englisch",
+  "my-description": "Frontend-Entwickler und der 3. Jahr Student an der Innopolis Universität"
 }

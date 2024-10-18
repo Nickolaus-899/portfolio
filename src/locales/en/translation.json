@@ -1,4 +1,54 @@
 {
-  "welcome": "Hello!",
-  "epjs-hello": "This is EPJS"
+  "project-hello": "Here is a page about ",
+  "my-description": "Frontend developer and 3-rd year student of the Innopolis University",
+  "de-description": "Study from my first course at university (autumn 2022), was in München for one month",
+  "en-description": "Study in English at my university, attended a lot of extra classes to study this language",
+  "ru-description": "Scored 89/100 at the Russian National Exam",
+  "de": "German",
+  "ru": "Russian",
+  "en": "English",
+  "native": "Native",
+  "inno-uni": {
+    "name": "Innopolis University",
+    "duration": "started in 2022",
+    "field": "Software Development",
+    "result": "GPA: 4.62"
+  },
+  "hsk": {
+    "name": "Summer School in Munich",
+    "duration": "the whole August 2024",
+    "field": "Learning German at Ludwig-Maximillian University (MISU)",
+    "result": "Completed B1.2"
+  },
+  "inno-lyc": {
+    "name": "Innopolis Lyceum",
+    "duration": "from 2020 to 2022",
+    "field": "Math, Physics, IT at a deep level",
+    "result": "Graduated with honors"
+  },
+  "gymnasium": {
+    "name": "Gymnasium #37",
+    "duration": "from 2011 to 2020",
+    "field": "General education",
+    "result": "Graduated with honors"
+  },
+  "skills": {
+    "languages": "Languages",
+    "education": "Education",
+    "hobby": "Hobby"
+  },
+  "hobby": {
+    "guitar": {
+      "name": "Playing guitar",
+      "description": "I play guitar almost one year and can play some simple melodies"
+    },
+    "travel": {
+      "name": "Travelling",
+      "description": "I've visited 9 countries!"
+    },
+    "driving": {
+      "name": "Driving licence",
+      "description": "I can (and like to) drive a car"
+    }
+  }
 }

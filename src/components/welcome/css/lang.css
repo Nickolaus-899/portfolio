@@ -1,0 +1,33 @@
+.change-language-wrapper {
+    margin-top: 2vw;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.language-button {
+    margin-right: 5vw;
+
+    border: none;
+    background: none;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+.language-button p {
+    margin: 0;
+    font-size: 1.8vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .language-button {
+        margin-top: 2vh;
+    }
+
+    .language-button p {
+        font-size: 2vh;
+    }
+}

@@ -1,0 +1,39 @@
+@import "./welcome/index.css";
+@import "./projects/index.css";
+@import "./skills/index.css";
+
+
+.dynamic-underline {
+    transition: font-weight 0.5s ease;
+    position: relative;
+}
+
+.dynamic-underline:hover {
+    font-weight: bold;
+}
+
+.dynamic-underline::after {
+    content: '';
+    left: 0;
+    bottom: -0.1vw;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+
+    position: absolute;
+
+    transform: scaleX(0);
+    transform-origin: left;
+
+    transition: transform 0.2s ease-out;
+}
+
+.dynamic-underline:hover::after {
+    transform: scaleX(1);
+}
+
+@media only screen and (max-width: 800px) {
+    .dynamic-underline {
+        border-bottom: 2px solid white;
+    }
+}

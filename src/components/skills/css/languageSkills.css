@@ -1,0 +1,46 @@
+.language-skill {
+    display: flex;
+    flex-direction: row;
+
+    max-width: 25vw;
+
+    margin-bottom: 4vw;
+}
+
+.lang-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.lang-2 {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lang-3 {
+    text-align: center;
+}
+
+
+.language-skill p {
+    color: black;
+}
+
+.language-skill h3 {
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .language-skill {
+        margin-bottom: 3vh;
+        max-width: 100vw;
+    }
+
+    .language-skill h3 {
+        font-size: 2vh;
+    }
+}
