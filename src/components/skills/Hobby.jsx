@@ -5,26 +5,66 @@ import { FaMapMarkedAlt } from "react-icons/fa";
 import { FaCarSide } from "react-icons/fa6";
 
 import { IoIosMusicalNotes } from "react-icons/io";
+import { IoFootsteps } from "react-icons/io5";
+import { FaMapPin } from "react-icons/fa";
 
 const Hobby = (props) => {
     const { hobby } = props;
+
+    const generateFeatures = (prefix, n) => {
+        const lst = [];
+        for (let i = 0; i < n; i++) {
+            lst.push(`${prefix}${i}`);
+        }
+
+        return lst;
+    }
+
+    const fgs = generateFeatures('fg', 4);
+    const fts = generateFeatures('ft', 6);
+    const fds = generateFeatures('fd', 5);
+
   return (
       <div className="hobby-container">
           <div className="hobby-title">
               {hobby.id === "guitar" ? (
-                  <div>
-                      <LiaGuitarSolid size={50} fill={'darkred'}/>
-                      <div>
-                        <IoIosMusicalNotes size={10} fill={'darkred'}/>
-                      </div>
+                  <div className="hobby-icons">
+                      <LiaGuitarSolid size={50} fill={'darkred'} className={'f-init rotate-motion'}/>
+
+                      {fgs.map((f, index) => (
+                          <IoIosMusicalNotes
+                              key={index}
+                              size={11}
+                              fill={'darkred'}
+                              className={`guitar-f ${f}`}
+                          />
+                      ))}
                   </div>
               ) : hobby.id === "travel" ? (
-                  <div>
-                      <FaMapMarkedAlt size={40} fill={'darkgreen'}/>
+                  <div className="hobby-icons">
+                      <FaMapMarkedAlt size={40} fill={'darkgreen'} className={'f-init map-motion'}/>
+
+                      {fts.map((f, index) => (
+                          <IoFootsteps
+                              key={index}
+                              size={11}
+                              fill={'darkgreen'}
+                              className={`travel-f ${f}`}
+                          />
+                      ))}
                   </div>
               ) : hobby.id === "driving" ? (
-                  <div>
-                      <FaCarSide size={40} fill={'darkblue'}/>
+                  <div className="hobby-icons">
+                      <FaCarSide size={40} fill={'darkblue'} className={'f-init car-motion'}/>
+
+                      {fds.map((f, index) => (
+                          <FaMapPin
+                              key={index}
+                              size={12}
+                              fill={'darkgreen'}
+                              className={`driving-f ${f}`}
+                          />
+                      ))}
                   </div>
               ) : null}
 

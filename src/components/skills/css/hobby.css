@@ -1,3 +1,5 @@
+@import "feature.css";
+
 .hobby-container {
     max-width: 20vw;
     margin-bottom: 50px;
@@ -21,5 +23,9 @@
 @media only screen and (max-width: 800px) {
     .hobby-container {
         max-width: 100vw;
+    }
+
+    .hobby-title h3 {
+        font-size: 2vh;
     }
 }

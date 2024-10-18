@@ -20,6 +20,7 @@
 .language-button p {
     margin: 0;
     font-size: 1.8vw;
+    font-weight: normal;
 }
 
 @media only screen and (max-width: 800px) {

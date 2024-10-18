@@ -1,0 +1,173 @@
+.hobby-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.guitar-f, .travel-f, .driving-f {
+    fill: rgba(0, 0, 0, 0);
+    margin-left: 3px;
+}
+
+/*--------------------*/
+.fg0 {
+    margin-top: 20px;
+    transition: fill 0.2s ease;
+    transform: rotate(20deg);
+}
+
+.fg1 {
+    margin-top: 8px;
+    transition: fill 0.5s ease;
+    transform: rotate(25deg);
+}
+
+.fg2 {
+    margin-top: 10px;
+    transition: fill 0.8s ease;
+    transform: rotate(10deg);
+}
+
+.fg3 {
+    margin-top: 0;
+    transition: fill 1s ease;
+    transform: rotate(5deg);
+}
+
+/*--------------------*/
+.ft0 {
+    margin-top: 10px;
+    transition: fill 0.5s ease;
+    transform: rotate(30deg);
+
+    margin-left: 10px;
+}
+
+.ft1 {
+    margin-top: 2px;
+    transition: fill 1s ease;
+    transform: rotate(50deg);
+}
+
+.ft2 {
+    margin-top: 10px;
+    transition: fill 1.5s ease;
+    transform: rotate(90deg);
+}
+
+.ft3 {
+    margin-top: 20px;
+    transition: fill 1.9s ease;
+    transform: rotate(120deg);
+}
+
+.ft4 {
+    margin-top: 17px;
+    transition: fill 2.2s ease;
+    transform: rotate(80deg);
+}
+
+.ft5 {
+    margin-top: 7px;
+    transition: fill 2.5s ease;
+    transform: rotate(60deg);
+}
+
+/*--------------------*/
+.fd0 {
+    margin-top: 20px;
+    transition: fill 0.2s ease;
+    transform: rotate(10deg);
+
+    margin-left: 10px;
+}
+
+.fd1 {
+    margin-top: 8px;
+    transition: fill 0.5s ease;
+    transform: rotate(-12deg);
+}
+
+.fd2 {
+    margin-top: 10px;
+    transition: fill 0.8s ease;
+    transform: rotate(5deg);
+}
+
+.fd3 {
+    margin-top: 20px;
+    transition: fill 1.2s ease;
+    transform: rotate(-5deg);
+}
+
+.fd4 {
+    margin-top: 15px;
+    transition: fill 1.5s ease;
+    transform: rotate(2deg);
+}
+
+/*--------------------*/
+
+.f-init {
+
+}
+
+.rotate-motion:hover {
+    animation: rotate-animation 0.7s ease forwards;
+}
+
+.car-motion:hover {
+    animation: move-animation 1s ease forwards;
+}
+
+.map-motion:hover {
+    animation: up-animation 1s ease forwards;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes move-animation {
+    0% {
+        transform: translate(-5px, 0);
+    }
+    50% {
+        transform: translate(5px, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes up-animation {
+    0% {
+        transform: translate(0, 5px);
+    }
+    50% {
+        transform: translate(0, -5px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+.f-init:hover ~ .guitar-f {
+    fill: darkred;
+}
+
+.f-init:hover ~ .travel-f {
+    fill: darkgreen;
+}
+
+.f-init:hover ~ .driving-f {
+    fill: darkblue;
+}
