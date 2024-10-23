@@ -8,17 +8,10 @@ import { IoIosMusicalNotes } from "react-icons/io";
 import { IoFootsteps } from "react-icons/io5";
 import { FaMapPin } from "react-icons/fa";
 
+import {generateFeatures} from "../../__data__/features";
+
 const Hobby = (props) => {
     const { hobby } = props;
-
-    const generateFeatures = (prefix, n) => {
-        const lst = [];
-        for (let i = 0; i < n; i++) {
-            lst.push(`${prefix}${i}`);
-        }
-
-        return lst;
-    }
 
     const fgs = generateFeatures('fg', 4);
     const fts = generateFeatures('ft', 6);

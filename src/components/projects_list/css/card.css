@@ -1,0 +1,49 @@
+.project-card {
+    text-decoration: none;
+    margin: 2vw;
+    padding: 1vw 2vw 2vw;
+
+    max-width: 30vw;
+
+    border-radius: 15px;
+    background-color: lightgray;
+
+    transition: background-color 0.3s ease;
+}
+
+.project-card h3, .project-card div {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.project-card:hover {
+    background-color: darkgray;
+}
+
+.project-card:hover h3, .project-card:hover div {
+    color: white;
+}
+
+.card-title {
+    display: flex;
+
+    align-items: center;
+}
+
+.card-title img {
+    width: 30px;
+    height: 100%;
+    margin-right: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .project-card {
+        width: 40vw;
+        padding: 5px 10px 20px;
+    }
+
+    .card-title img {
+        width: 20px;
+        margin-right: 5px;
+    }
+}

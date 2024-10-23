@@ -7,7 +7,11 @@ const Hello = (props) => {
   const { t } = useTranslation();
 
   return (
-      <a href={URLs.home}>{`${t('project-hello')}${project.name}`}</a>
+      <div>
+        <h1>{`${t('project-hello')}${project.name}`}</h1>
+        <a href={URLs.home}>Back</a>
+      </div>
+
   );
 };
 

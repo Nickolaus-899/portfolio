@@ -7,13 +7,16 @@ import ProjectPage from "./projects/ProjectPage";
 import {URLs} from "../__data__/URLs";
 
 const Pages = (props) => {
-  const { frontend_projects } = props;
+  const { frontend_projects, backend_projects } = props;
 
   return (
       <AnimatePresence mode={"wait"}>
         <Routes>
             <Route path={URLs.home} element={<Home/>}/>
             {frontend_projects.map((project, index) => (
+                <Route key={index} path={project.path} element={<ProjectPage project={project}/>}/>
+            ))}
+            {backend_projects.map((project, index) => (
                 <Route key={index} path={project.path} element={<ProjectPage project={project}/>}/>
             ))}
         </Routes>

@@ -1,0 +1,31 @@
+.footer-container {
+    padding-bottom: 7vh;
+    padding-top: 7vh;
+    margin-top: 15vh;
+    margin-bottom: 0;
+
+    background-color: lightgray;
+}
+
+.footer-arrow {
+    position: absolute;
+    padding-bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0) rotate(-90deg);
+
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+    cursor: pointer;
+
+    transition: transform 0.2s ease-in;
+}
+
+.footer-arrow img {
+    width: 2.5vw;
+    height: 100%;
+}
+
+.footer-arrow:hover {
+    transform: translate(-50%, -5px) rotate(-90deg);
+}

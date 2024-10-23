@@ -1,6 +1,8 @@
 @import "./welcome/index.css";
 @import "./projects/index.css";
 @import "./skills/index.css";
+@import "./projects_list/index.css";
+@import "./footer/index.css";
 
 
 .dynamic-underline {
@@ -32,8 +34,28 @@
     transform: scaleX(1);
 }
 
+.section-title {
+    display: inline-block;
+    width: auto;
+    cursor: default;
+
+    font-size: 2.5vw;
+
+    font-weight: normal;
+}
+
+.section-title::after {
+    background-color: red;
+    height: 3px;
+    bottom: -0.2vw;
+}
+
 @media only screen and (max-width: 800px) {
     .dynamic-underline {
         border-bottom: 2px solid white;
+    }
+
+    .section-title {
+        font-size: 3vh;
     }
 }

@@ -44,11 +44,68 @@
     },
     "travel": {
       "name": "Travelling",
-      "description": "I've visited 9 countries!"
+      "description": "I've visited 11 countries!"
     },
     "driving": {
       "name": "Driving licence",
       "description": "I can (and like to) drive a car"
+    }
+  },
+  "projects": {
+    "enterfront": {
+      "short": "A chat application",
+      "body": "",
+      "history": "",
+      "ps": ""
+    },
+    "textyle": {
+      "short": "Transforming the style of text",
+      "body": "",
+      "history": "",
+      "ps": ""
+    },
+    "fwd": {
+      "short": "Menu",
+      "body": "",
+      "history": "",
+      "ps": ""
+    },
+    "booking": {
+      "short": "Booking study rooms",
+      "body": "",
+      "history": "",
+      "ps": ""
+    },
+
+    "sna": {
+      "short": "System for periodical change of passwords",
+      "body": "",
+      "history": "",
+      "ps": ""
+    },
+    "verilog": {
+      "short": "A 'computer game' on FPGA (in Verilog language)",
+      "body": "",
+      "history": "",
+      "ps": ""
+    },
+    "enigma": {
+      "short": "Model of Enigma machine",
+      "body": "",
+      "history": "",
+      "ps": ""
+    },
+    "game": {
+      "short": "Game in cmd",
+      "body": "",
+      "history": "",
+      "ps": ""
+    },
+    "school": {
+      "short": "Telegram bot for an online-school (unfinished)",
+      "body": "",
+      "history": "",
+      "ps": ""
     }
   }
 }
