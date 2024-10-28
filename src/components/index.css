@@ -50,12 +50,41 @@
     bottom: -0.2vw;
 }
 
-@media only screen and (max-width: 800px) {
-    .dynamic-underline {
-        border-bottom: 2px solid white;
-    }
+.back-button {
+    text-decoration: none;
+    font-size: 2vw;
 
+    display: inline-block;
+    width: auto;
+
+    font-weight: normal;
+}
+
+.back-button::after {
+    background-color: #15b5a9;
+    height: 5px;
+    bottom: -0.4vw;
+}
+
+.link-underline {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-underline::after {
+    background-color: #1bc80f;
+    height: 3px;
+    bottom: -0.2vw;
+}
+
+@media only screen and (max-width: 800px) {
     .section-title {
         font-size: 3vh;
+    }
+
+    .back-button {
+        margin-top: 2vh;
+        font-size: 2.5vh;
     }
 }

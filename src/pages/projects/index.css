@@ -1,0 +1,50 @@
+.project-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 4vh;
+}
+
+.project-header {
+    font-size: 4vw;
+    margin-bottom: 1vw;
+}
+
+.project-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-short {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.project-short img {
+    width: 2vw;
+    height: 100%;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+    .project-header {
+        font-size: 4vh;
+    }
+
+    .project-short h2 {
+        font-size: 2vh;
+        max-width: 75vw;
+    }
+    .project-short img {
+        width: 2.5vh;
+        margin-left: 10px;
+    }
+
+    .project-main {
+        flex-direction: column;
+    }
+}

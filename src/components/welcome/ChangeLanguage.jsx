@@ -10,12 +10,14 @@ const ChangeLanguage = (props) => {
         i18n.changeLanguage(lng); // Change the language when called
     };
   return (
-      <button
-          onClick={() => changeLanguage(target)}
-          className="language-button"
-      >
-          <p className="dynamic-underline">{t(target)}</p>
-      </button>
+      <div className="change-lang-button-wrapper">
+          <button
+              onClick={() => changeLanguage(target)}
+              className="language-button"
+          >
+              <p className="dynamic-underline lang-option">{t(target)}</p>
+          </button>
+      </div>
   );
 };
 

@@ -5,6 +5,8 @@ import {Route, Routes} from "react-router-dom";
 import Home from "./Home";
 import ProjectPage from "./projects/ProjectPage";
 import {URLs} from "../__data__/URLs";
+import {getFrontEndExtra} from "../__data__/frontend";
+import {getBackEndExtra} from "../__data__/backend";
 
 const Pages = (props) => {
   const { frontend_projects, backend_projects } = props;
@@ -14,10 +16,14 @@ const Pages = (props) => {
         <Routes>
             <Route path={URLs.home} element={<Home/>}/>
             {frontend_projects.map((project, index) => (
-                <Route key={index} path={project.path} element={<ProjectPage project={project}/>}/>
+                <Route key={index} path={project.path} element={
+                    <ProjectPage project={project} getExtra={getFrontEndExtra}/>
+                }/>
             ))}
             {backend_projects.map((project, index) => (
-                <Route key={index} path={project.path} element={<ProjectPage project={project}/>}/>
+                <Route key={index} path={project.path} element={
+                    <ProjectPage project={project} getExtra={getBackEndExtra}/>
+                }/>
             ))}
         </Routes>
       </AnimatePresence>

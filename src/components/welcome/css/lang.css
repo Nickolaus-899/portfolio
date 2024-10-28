@@ -23,6 +23,14 @@
     font-weight: normal;
 }
 
+.change-lang-button-wrapper {
+    min-width: 15vw;
+}
+
+.lang-option {
+
+}
+
 @media only screen and (max-width: 800px) {
     .language-button {
         margin-top: 2vh;
@@ -30,5 +38,9 @@
 
     .language-button p {
         font-size: 2vh;
+    }
+
+    .lang-option {
+        border-bottom: 2px solid white;
     }
 }

@@ -67,7 +67,7 @@ export const getFrontEndExtra = (projectId, t) => {
             short: t('projects.booking.short'),
             body: t('projects.booking.body'),
             history: t('projects.booking.history'),
-            ps: t('projects.fwd.ps'),
+            ps: t('projects.booking.ps'),
             favicon: booking
         }
     };

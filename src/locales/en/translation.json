@@ -1,5 +1,4 @@
 {
-  "project-hello": "Here is a page about ",
   "my-description": "Frontend developer and 3-rd year student of the Innopolis University",
   "de-description": "Study from my first course at university (autumn 2022), was in München for one month",
   "en-description": "Study in English at my university, attended a lot of extra classes to study this language",
@@ -54,21 +53,21 @@
   "projects": {
     "enterfront": {
       "short": "A chat application",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "body": "This project is a simple chat application. It uses pseudo-database (API with a local variable) and short-pulling to access messages. Registration is performed also via API with the use of tokenization.",
+      "history": "It was an elective course Enterprise Programming on JS I have chosen at the the Fall semester 2024. I was in a team of 3 people, we were working during the period of 2 months.",
+      "ps": "Project should work properly, try it! Register (or use one of predefined users e.g. 'alice' with password'1234') and type some id to start chatting (e.g. 'alice', 'evead', 'frank')."
     },
     "textyle": {
       "short": "Transforming the style of text",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "body": "The idea is relatively simple: insert a text in any style, than convert it to the desired one. Then applying AI model that was connect with backend technics on Rust to the frontend on React.",
+      "history": "This project was chosen as a topic of a Practicum Project course that was conducted in Summer 2024. We had 7 people at our team: team-leader, 2 frontend developers, 2 backend developers, 2 AI programmers. ",
+      "ps": "Unfortunately, the backend server as well as AI model wasn't hosted and ran locally during the presentation. Nevertheless, you can watch a video prepared for the final submission and demonstration."
     },
     "fwd": {
-      "short": "Menu",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "short": "Menu-application to post and order",
+      "body": "This project doesn't pursue complex idea, just demonstrating basic skills at the Frontend development. A user can observe a variety of different dishes that are published by restaurant admins. They can add it to their cart and calculate calories and price. Admins can post different dishes.",
+      "history": "This is the final project for an elective course related the Frontend I took in Summer 2023. There was a small team of 2 people. However, for me this course and the project in particular were a starting point in the Frontend Development.",
+      "ps": "The website works properly till the current but some links for meals are outdated and nonworking that's why some images are not displayed."
     },
     "booking": {
       "short": "Booking study rooms",
@@ -114,5 +113,16 @@
       "ps": ""
     }
   },
-  "full-name": "Nikolai Petukhov"
+  "full-name": "Nikolai Petukhov",
+  "project-link": {
+    "website": "Website",
+    "video": "YouTube video",
+    "git": "GitHub repository"
+  },
+  "project-page": {
+    "history": "History",
+    "body": "Main Part",
+    "links": "Links",
+    "back-button": "Back to the main page"
+  }
 }

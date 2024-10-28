@@ -7,6 +7,7 @@ import phone from "../../images/footer/phone.svg"
 import instagram from "../../images/footer/instagram.svg"
 import git from "../../images/footer/git.png"
 import logo from "../../images/footer/logo.svg"
+import gmail from "../../images/footer/gmail.svg"
 
 import {useTranslation} from "react-i18next";
 import Contact from "./Contact.jsx";
@@ -36,7 +37,7 @@ const Footer = () => {
                   <h3>Contacts</h3>
                   <Contact text={"+7 953 999 44 73"} icon={phone} link={""}/>
                   <Contact text={"kolya.petukhov.03@mail.ru"} icon={email} link={""}/>
-                  <Contact text={"gfq777@gmail.com"} icon={email} link={""}/>
+                  <Contact text={"gfq777@gmail.com"} icon={gmail} link={""}/>
                   <Contact text={"@Nickolaus_SRD"} icon={telegram} link={"https://t.me/Nickolaus_SDR"}/>
                   <Contact text={"petukhovnickolaus"} icon={instagram}
                            link={"https://www.instagram.com/petukhovnickolaus"}/>
