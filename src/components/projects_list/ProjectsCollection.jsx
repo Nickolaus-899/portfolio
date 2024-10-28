@@ -6,7 +6,7 @@ import {backend_projects, getBackEndExtra} from "../../__data__/backend";
 
 const ProjectsCollection = () => {
     const frontHovers = generateFeatures('frcard', 4);
-    const backHovers = generateFeatures('bccard', 5);
+    const backHovers = generateFeatures('bccard', 6);
 
   return (
       <div>

@@ -11,35 +11,48 @@ export const backend_projects = [
         path: URLs.sna,
         id: "sna",
         link: "",
-        video: "https://youtu.be/k_iecYOyZIU"
+        video: "https://youtu.be/k_iecYOyZIU",
+        git: ""
     },
     {
         name: "Memory Game",
         path: URLs.verilog,
         id: 'verilog',
         link: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=QAkkXCagOs0",
+        git: "https://github.com/Nickolaus-899/FPGA-project-by-Marakuja"
     },
     {
         name: "Enigma",
         path: URLs.enigma,
         id: 'enigma',
         link: "",
-        video: ""
+        video: "",
+        git: "https://github.com/Nickolaus-899/Enigma"
     },
     {
         name: "Mini-game at cmd",
         path: URLs.game,
         id: 'game',
         link: "",
-        video: ""
+        video: "",
+        git: ""
     },
     {
         name: "MiTe School",
         path: URLs.school,
         id: 'school',
         link: "",
-        video: ""
+        video: "",
+        git: "https://github.com/Nickolaus-899/MiTe_School"
+    },
+    {
+        name: "Compiler for I language",
+        path: URLs.compiler,
+        id: 'compiler',
+        link: "",
+        video: "",
+        git: "https://github.com/Tarsonis-team/Tarsonis-Compiler"
     }
 ]
 
@@ -79,6 +92,13 @@ export const getBackEndExtra = (projectId, t) => {
             history: t('projects.school.history'),
             ps: t('projects.school.ps'),
             favicon: python
+        },
+        compiler: {
+            short: t('projects.compiler.short'),
+            body: t('projects.compiler.body'),
+            history: t('projects.compiler.history'),
+            ps: t('projects.compiler.ps'),
+            favicon: c
         }
     };
 

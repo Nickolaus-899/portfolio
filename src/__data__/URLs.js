@@ -10,5 +10,6 @@ export const URLs = {
     sna: "/sna",
     enigma: "/enigma",
     game: "/game",
-    school: "/school"
+    school: "/school",
+    compiler: "/compiler"
 }

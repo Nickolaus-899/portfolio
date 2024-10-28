@@ -1,5 +1,5 @@
 .footer-container {
-    padding-bottom: 7vh;
+    padding-bottom: 10vh;
     padding-top: 7vh;
     margin-top: 15vh;
     margin-bottom: 0;
@@ -28,4 +28,70 @@
 
 .footer-arrow:hover {
     transform: translate(-50%, -5px) rotate(-90deg);
+}
+
+.footer-title {
+    width: 25vw;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 10px;
+}
+
+.footer-contact img {
+    width: 25px;
+}
+
+.footer-contact div, a {
+    margin-left: 1vw;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    transition: font-weight 0.3s ease-in;
+}
+
+.footer-contact a:hover {
+    font-weight: bold;
+}
+
+.footer-logo {
+    width: 30vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 3vh;
+    }
+
+    .footer-title {
+        width: 80vw;
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-top: 3vh;
+        width: 30vh;
+    }
+
+    .footer-arrow img {
+        width: 4vh;
+    }
 }

@@ -11,28 +11,32 @@ export const frontend_projects = [
         path: URLs.enterfront,
         id: 'enterfront',
         link: "https://dev.bro-js.ru/enterfront/",
-        video: ""
+        video: "",
+        git: "https://git.bro-js.ru/enterfront/front"
     },
     {
         name: "Textyle",
         path: URLs.textyle,
         id: 'textyle',
         link: "https://textyle.vercel.app/",
-        video: ""
+        video: "https://www.youtube.com/watch?v=73sS-C4M1Pw&t=4s",
+        git: "https://github.com/Nickolaus-899/Textyle-Frontend"
     },
     {
         name: "InnoFood",
         path: URLs.fwd,
         id: 'fwd',
         link: "https://fwd-react.vercel.app/",
-        video: "https://youtu.be/a5Jian4Afsk"
+        video: "https://youtu.be/a5Jian4Afsk",
+        git: "https://github.com/Nickolaus-899/fwd_react"
     },
     {
         name: "InnoBooking bot",
         path: URLs.booking,
         id: 'booking',
         link: "",
-        video: "https://youtu.be/CgztJYxvnhU"
+        video: "https://youtu.be/CgztJYxvnhU",
+        git: "https://gitlab.pg.innopolis.university/a.savchenko/innobookingbotfrontend"
     }
 ]
 

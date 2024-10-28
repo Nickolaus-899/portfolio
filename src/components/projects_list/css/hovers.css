@@ -21,21 +21,25 @@
 /*-------------------*/
 
 .bccard0:hover {
-    background-color: rgba(151, 0, 0, 0.8);
+    background-color: rgba(117, 28, 136, 0.8);
 }
 
 .bccard1:hover {
-    background-color: rgba(0, 19, 94, 0.8);
+    background-color: rgba(177, 26, 26, 0.8);
 }
 
 .bccard2:hover {
-    background-color: rgba(85, 10, 106, 0.8);
+    background-color: rgba(44, 66, 156, 0.8);
 }
 
 .bccard3:hover {
-    background-color: rgba(17, 90, 9, 0.8);
+    background-color: rgba(40, 115, 31, 0.8);
 }
 
 .bccard4:hover {
-    background-color: rgba(122, 5, 126, 0.8);
+    background-color: rgba(117, 112, 15, 0.8);
+}
+
+.bccard5:hover {
+    background-color: rgba(20, 184, 179, 0.8);
 }
