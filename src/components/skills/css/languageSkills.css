@@ -40,10 +40,7 @@
     align-items: center;
     justify-content: center;
 
-    padding: 0.2vw;
-}
-.language-icon img {
-    width: 4vw;
+    padding: 0;
 }
 
 @media only screen and (max-width: 800px) {
@@ -62,10 +59,8 @@
 
     .language-icon {
         min-width: 70px;
-        margin-right: 5px;
     }
     .language-icon img {
         width: 60px;
-        margin-right: 12px;
     }
 }
