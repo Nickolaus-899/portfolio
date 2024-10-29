@@ -32,15 +32,19 @@
 
 @media only screen and (max-width: 800px) {
     .project-header {
-        font-size: 4vh;
+        font-size: 35px;
+    }
+
+    .project-page-wrapper {
+        margin-bottom: 40px;
     }
 
     .project-short h2 {
-        font-size: 2vh;
+        font-size: 18px;
         max-width: 75vw;
     }
     .project-short img {
-        width: 2.5vh;
+        width: 23px;
         margin-left: 10px;
     }
 

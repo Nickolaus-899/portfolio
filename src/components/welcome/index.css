@@ -102,15 +102,15 @@
     }
 
     .personal-info {
-        margin-top: 3vh;
+        margin-top: 25px;
         flex-direction: column;
     }
 
     .initTitle h1 {
-        font-size: 5vh;
+        font-size: 45px;
     }
 
     .initTitle p {
-        font-size: 2.5vh;
+        font-size: 23px;
     }
 }

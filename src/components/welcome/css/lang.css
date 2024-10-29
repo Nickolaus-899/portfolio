@@ -33,11 +33,11 @@
 
 @media only screen and (max-width: 800px) {
     .language-button {
-        margin-top: 2vh;
+        margin-top: 18px;
     }
 
     .language-button p {
-        font-size: 2vh;
+        font-size: 18px;
     }
 
     .lang-option {

@@ -73,10 +73,10 @@
 
 @media only screen and (max-width: 800px) {
     .education {
-        margin-bottom: 3vh;
+        margin-bottom: 27px;
     }
 
     .edu h3 {
-        font-size: 2vh;
+        font-size: 18px;
     }
 }

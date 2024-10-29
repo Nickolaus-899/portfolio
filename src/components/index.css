@@ -80,11 +80,11 @@
 
 @media only screen and (max-width: 800px) {
     .section-title {
-        font-size: 3vh;
+        font-size: 27px;
     }
 
     .back-button {
-        margin-top: 2vh;
-        font-size: 2.5vh;
+        margin-top: 18px;
+        font-size: 20px;
     }
 }

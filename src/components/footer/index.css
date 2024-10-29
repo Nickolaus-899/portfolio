@@ -84,7 +84,7 @@
         align-items: center;
         justify-content: center;
 
-        margin-bottom: 3vh;
+        margin-bottom: 26px;
     }
 
     .footer-title {
@@ -93,13 +93,11 @@
     }
 
     .footer-logo {
-        margin-top: 3vh;
-        /*width: 30vh;*/
+        margin-top: 27px;
         width: 200px;
     }
 
     .footer-arrow img {
-        /*width: 4vh;*/
         width: 35px;
     }
 }
