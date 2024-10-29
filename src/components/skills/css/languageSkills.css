@@ -35,6 +35,17 @@
     font-size: 1.5vw;
 }
 
+.language-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.2vw;
+}
+.language-icon img {
+    width: 4vw;
+}
+
 @media only screen and (max-width: 800px) {
     .language-skill {
         margin-bottom: 26px;
@@ -43,5 +54,12 @@
 
     .language-skill h3 {
         font-size: 17px;
+    }
+
+    .language-icon {
+        min-width: 66px;
+    }
+    .language-icon img {
+        width: 65px;
     }
 }

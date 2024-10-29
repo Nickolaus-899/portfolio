@@ -18,7 +18,9 @@ const LanguageSkill = (props) => {
 
   return (
       <div className="language-skill">
-          <img src={logos[language.id]} alt="icon of a language"/>
+          <div className="language-icon">
+              <img src={logos[language.id]} alt="icon of a language"/>
+          </div>
           <div className={"lang-1"}>
               <div className={"lang-2"}>
                   <h3 className={"mclaren-regular"}>{t(language.id)}</h3>
