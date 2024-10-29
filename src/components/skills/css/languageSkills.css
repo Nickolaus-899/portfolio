@@ -62,6 +62,7 @@
 
     .language-icon {
         min-width: 70px;
+        margin-right: 5px;
     }
     .language-icon img {
         width: 60px;
