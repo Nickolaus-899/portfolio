@@ -97,7 +97,8 @@
     }
 
     .backgroundImage {
-        height: 100vh;
+        /*height: 100vh;*/
+        height: 850px;
     }
 
     .personal-info {

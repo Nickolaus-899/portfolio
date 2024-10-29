@@ -94,10 +94,12 @@
 
     .footer-logo {
         margin-top: 3vh;
-        width: 30vh;
+        /*width: 30vh;*/
+        width: 200px;
     }
 
     .footer-arrow img {
-        width: 4vh;
+        /*width: 4vh;*/
+        width: 35px;
     }
 }
