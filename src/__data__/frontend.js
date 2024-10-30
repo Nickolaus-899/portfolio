@@ -11,7 +11,7 @@ export const frontend_projects = [
         path: URLs.enterfront,
         id: 'enterfront',
         link: "https://dev.bro-js.ru/enterfront/",
-        video: "",
+        video: "https://youtu.be/IvHf3Ibb4-8",
         git: "https://git.bro-js.ru/enterfront/front"
     },
     {

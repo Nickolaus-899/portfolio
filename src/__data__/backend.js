@@ -23,11 +23,19 @@ export const backend_projects = [
         git: "https://github.com/Nickolaus-899/FPGA-project-by-Marakuja"
     },
     {
+        name: "Compiler for I language",
+        path: URLs.compiler,
+        id: 'compiler',
+        link: "",
+        video: "",
+        git: "https://github.com/Tarsonis-team/Tarsonis-Compiler"
+    },
+    {
         name: "Enigma",
         path: URLs.enigma,
         id: 'enigma',
         link: "",
-        video: "",
+        video: "https://youtu.be/FkCvo4SNY10",
         git: "https://github.com/Nickolaus-899/Enigma"
     },
     {
@@ -35,7 +43,7 @@ export const backend_projects = [
         path: URLs.game,
         id: 'game',
         link: "",
-        video: "",
+        video: "https://youtu.be/FhSFZ4s1G14",
         git: ""
     },
     {
@@ -45,14 +53,6 @@ export const backend_projects = [
         link: "",
         video: "",
         git: "https://github.com/Nickolaus-899/MiTe_School"
-    },
-    {
-        name: "Compiler for I language",
-        path: URLs.compiler,
-        id: 'compiler',
-        link: "",
-        video: "",
-        git: "https://github.com/Tarsonis-team/Tarsonis-Compiler"
     }
 ]
 

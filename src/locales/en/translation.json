@@ -65,22 +65,22 @@
     },
     "fwd": {
       "short": "Menu-application to post and order",
-      "body": "This project doesn't pursue complex idea, just demonstrating basic skills at the Frontend development. A user can observe a variety of different dishes that are published by restaurant admins. They can add it to their cart and calculate calories and price. Admins can post different dishes.",
+      "body": "This project doesn't pursue a complex idea, it's just demonstrating basic skills at the Frontend development. A user can observe a variety of different dishes that are published by restaurant admins. They can add it to their cart and calculate calories and price. Admins can post different dishes.",
       "history": "This is the final project for an elective course related the Frontend I took in Summer 2023. There was a small team of 2 people. However, for me this course and the project in particular were a starting point in the Frontend Development.",
       "ps": "The website works properly till the current but some links for meals are outdated and nonworking that's why some images are not displayed."
     },
     "booking": {
       "short": "Booking study rooms",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "body": "The idea of the project: provide a convenient way to make bookings of university rooms for students and stuff. It was a telegram bot (with a Web App) that connected to an API related to bookings.",
+      "history": "It was a summer project (2023) at the core course for a team of 5. There were 2 frontend developers, including me.",
+      "ps": "There is no support for telegram bot anymore, however there is still a video about it. Enjoy watching it!"
     },
 
     "sna": {
       "short": "System for periodical change of passwords",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "body": "This is an encoding systems that can periodically change password keys for security. It is used to create, store, and automatically update keys using a scheduler (a key updates once a day). It was implemented via Telegram Bot on Linux OS.",
+      "history": "I was working on this project during a course named Software Networks and Administration. I was the author of an idea for a project and the implementor of the hardest part of it (working with scheduler on Linux and returning updated code).",
+      "ps": "Initially, there wasn't even an idea to somehow host it, so there is only a video. It is relatively big (there were requirements of the course) but the most interesting part is at 6:25 (my college have explained before in the video that we have set update time to 22:27 instead of 00:00)."
     },
     "verilog": {
       "short": "A 'computer game' on FPGA (in Verilog language)",
@@ -90,9 +90,9 @@
     },
     "enigma": {
       "short": "Model of Enigma machine",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "body": "The Machine has 3 active rotors (you need to choose out of 5), that rotates after pressing any key. When the first rotor makes full rotation, it rotates the second rotor on one position and so on. You need to enter letters one-by-one, then you will receive the output.txt with the encoded text. Repeat procedure to decipher.",
+      "history": "I had seen a film about encoding and deciphering and wanted to dive deeper in this theme, so I wrote a C++ project that demonstrates how the Enigma machine works.",
+      "ps": "I was practicing my German, so the video is only in German."
     },
     "game": {
       "short": "Game in cmd",
