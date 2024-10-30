@@ -8,12 +8,12 @@
     border-radius: 15px;
     background-color: lightgray;
 
-    transition: background-color 0.3s ease;
+    transition: background-color 0.4s ease;
 }
 
 .project-card h3, .project-card div {
     color: black;
-    transition: color 0.3s ease;
+    transition: color 0.4s ease;
 }
 
 .project-card:hover {
