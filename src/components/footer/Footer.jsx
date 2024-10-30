@@ -25,15 +25,15 @@ const Footer = () => {
   return (
       <div className="footer-container">
           <div className="footer-info">
-              <div className="footer-title">
+              <div className="footer-title smooth-appear sm-fast">
                   <div className="dynamic-underline section-title">{t('full-name')}</div>
               </div>
 
-              <div>
+              <div className="smooth-appear sm-medium">
                   <img src={logo} alt="logo" className="footer-logo"/>
               </div>
 
-              <div>
+              <div className="smooth-appear sm-slow">
                   <h3>Contacts</h3>
                   <Contact text={"+7 953 999 44 73"} icon={phone} link={""}/>
                   <Contact text={"kolya.petukhov.03@mail.ru"} icon={email} link={""}/>

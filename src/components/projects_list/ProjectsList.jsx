@@ -11,10 +11,12 @@ const ProjectsList = (props) => {
 
   return (
       <div className="projects-list-wrapper">
-          <h1 className="dynamic-underline section-title smooth-appear">{title}</h1>
+          <div className="smooth-appear">
+              <h1 className="dynamic-underline section-title">{title}</h1>
+          </div>
 
           <div className="projects-list">
-              { projects.map((project, index) => (
+          { projects.map((project, index) => (
                   <ProjectCard
                       key={index}
                       project={project}
