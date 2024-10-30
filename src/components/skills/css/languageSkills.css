@@ -10,7 +10,6 @@
 .lang-1 {
     display: flex;
     flex-direction: column;
-    margin-left: 15px;
 }
 
 .lang-2 {
@@ -19,6 +18,8 @@
 
     align-items: center;
     justify-content: space-between;
+
+    margin-left: 10px;
 }
 
 .lang-3 {
@@ -54,12 +55,9 @@
     }
 
     .lang-1 {
-        margin-left: 20px;
+        margin-left: 5px;
     }
 
-    .language-icon {
-        min-width: 70px;
-    }
     .language-icon img {
         width: 60px;
     }

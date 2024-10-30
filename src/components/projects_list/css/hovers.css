@@ -29,7 +29,7 @@
 }
 
 .bccard2:hover {
-    background-color: rgba(44, 66, 156, 0.8);
+    background-color: rgba(20, 184, 179, 0.8);
 }
 
 .bccard3:hover {
@@ -41,5 +41,5 @@
 }
 
 .bccard5:hover {
-    background-color: rgba(20, 184, 179, 0.8);
+    background-color: rgba(44, 66, 156, 0.8);
 }
