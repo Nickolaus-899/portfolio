@@ -12,7 +12,7 @@ export const backend_projects = [
         id: "sna",
         link: "",
         video: "https://youtu.be/k_iecYOyZIU",
-        git: ""
+        git: "https://gitlab.pg.innopolis.university/sna_project/id_api"
     },
     {
         name: "Memory Game",
