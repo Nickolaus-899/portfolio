@@ -17,7 +17,7 @@ const LanguageSkill = (props) => {
     }
 
   return (
-      <div className="language-skill">
+      <div className="language-skill smooth-appear sm-fast">
           <div className="language-icon">
               <img src={logos[language.id]} alt="icon of a language"/>
           </div>

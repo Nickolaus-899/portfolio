@@ -18,7 +18,7 @@ const Hobby = (props) => {
     const fds = generateFeatures('fd', 5);
 
   return (
-      <div className="hobby-container">
+      <div className="hobby-container smooth-appear sm-slow">
           <div className="hobby-title">
               {hobby.id === "guitar" ? (
                   <div className="hobby-icons">

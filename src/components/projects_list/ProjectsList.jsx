@@ -11,7 +11,7 @@ const ProjectsList = (props) => {
 
   return (
       <div className="projects-list-wrapper">
-          <h1 className="dynamic-underline section-title">{title}</h1>
+          <h1 className="dynamic-underline section-title smooth-appear">{title}</h1>
 
           <div className="projects-list">
               { projects.map((project, index) => (

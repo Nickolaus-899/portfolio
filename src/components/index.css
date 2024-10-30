@@ -78,6 +78,29 @@
     bottom: -0.2vw;
 }
 
+
+.smooth-appear {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+
+.sm-fast {
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.sm-medium {
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+.sm-slow {
+    transition: opacity 1.4s ease-out, transform 1.4s ease-out;
+}
+
+.smooth-appear.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 @media only screen and (max-width: 800px) {
     .section-title {
         font-size: 27px;

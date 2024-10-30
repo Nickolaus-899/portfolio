@@ -12,6 +12,22 @@ function App() {
     document.title = 'Nikolaus';
   }, []);
 
+    document.addEventListener("scroll", () => {
+        const elements = document.querySelectorAll(".smooth-appear");
+
+        elements.forEach((element) => {
+            const rect = element.getBoundingClientRect();
+            const isVisible = rect.top < window.innerHeight && rect.bottom >= 10;
+            const isAboveViewport = rect.bottom < 0;
+
+            if (isVisible) {
+                element.classList.add("show");
+            } else if (isAboveViewport || rect.top > window.innerHeight) {
+                element.classList.remove("show");
+            }
+        });
+    });
+
   
   return (
     <BrowserRouter>

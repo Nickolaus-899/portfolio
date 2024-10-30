@@ -4,7 +4,7 @@ const Study = (props) => {
     const { education } = props;
 
   return (
-      <div className={`education ${education.extra}`}>
+      <div className={`education ${education.extra} smooth-appear sm-medium`}>
           <a href={education.link} className={"edu"}>
               <div>
                   <h3 className="mclaren-regular">{education.name}</h3>

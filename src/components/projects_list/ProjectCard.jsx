@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
     const { short, favicon } = extra;
 
   return (
-      <a href={project.path} className={`project-card ${hover ? hover : ''}`}>
+      <a href={project.path} className={`project-card smooth-appear ${hover ? hover : ''}`}>
           <div className="card-title">
               {favicon ? (
                   <img src={favicon} alt={'Project icon'}/>
