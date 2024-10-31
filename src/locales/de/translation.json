@@ -39,7 +39,7 @@
   "hobby": {
     "guitar": {
       "name": "Gitarrespielen",
-      "description": "Ich spiele seit fast einem Jahr Gitarre und kann einige einfache Melodien spielen"
+      "description": "Ich spiele seit fast einem Jahr Gitarre und kann einige tolle Melodien spielen"
     },
     "travel": {
       "name": "Reisen",
@@ -57,7 +57,7 @@
   "projects": {
     "enterfront": {
       "short": "Eine Chat-Anwendung",
-      "body": "Dieses Projekt ist eine einfache Chat-Anwendung. Es verwendet eine Pseudo-Datenbank (API mit einer lokalen Variablen) und Short-Pulling, um auf Nachrichten zuzugreifen. Die Anmeldung passiert auch über die API mit Verwendung der Tokenisierung.",
+      "body": "Dieses Projekt ist eine einfache Chat-Anwendung. Es verwendet eine Pseudo-Datenbank (API mit einer lokalen Variablen) und Short-Pulling, um auf Nachrichten zuzugreifen. Die Anmeldung passiert auch über die API mit Verwendung der Tokenisierung. Ich war Teamleiter und habe den größten Beitrag zum Projekt gebracht.",
       "history": "Es war ein Wahlkurs Enterprise Programming auf JS, den ich im Herbstsemester 2024 ausgesucht habe. Ich war in einem Team von 3 Personen, wir arbeiteten 2 Monaten lang.",
       "ps": "Das Projekt sollte funktionieren, probieren Sie es selbst aus! Melden Sie sich ab (oder benutzen Sie einen Benutzer, z. B. 'alice' mit Passwort '1234') und geben Sie eine ID ein (z. B. 'alice', 'evead', 'frank'), um anzufangen zu chatten."
     },
@@ -95,7 +95,7 @@
       "short": "Ein Modell der Enigma-Maschine",
       "body": "Die Maschine hat 3 aktive Rotoren (man kann aus 5 aussuchen), die sich nach jedem Tastendruck drehen. Wenn der erste Rotor eine vollständige Drehung macht, dreht er den zweiten Rotor um eine Position und so weiter. Man muss Buchstaben einzeln eingeben, dann empfängt man die Datei output.txt mit dem verschlüsselten Text. Man wiederholt den Prozess, um zu entschlüsseln.",
       "history": "Ich hatte einen Film über Verschlüsselung und Entschlüsselung geschaut und wollte mich tiefer in dieses Thema eintauchen, also schrieb ich ein C++ Projekt, das zeigt, wie die Enigma-Maschine funktioniert.",
-      "ps": "Ich habe mein Deutsch geübt, daher ist das Video nur auf Deutsch gemacht."
+      "ps": "Ich habe mein Deutsch geübt, das Video ist auf Deutsch!"
     },
     "game": {
       "short": "Spiel in der Konsole",

@@ -39,7 +39,7 @@
   "hobby": {
     "guitar": {
       "name": "Playing guitar",
-      "description": "I play guitar almost one year and can play some simple melodies"
+      "description": "I play guitar almost one year and can play beautiful melodies"
     },
     "travel": {
       "name": "Travelling",
@@ -58,7 +58,7 @@
     "enterfront": {
       "short": "A chat application",
       "body": "This project is a simple chat application. It uses pseudo-database (API with a local variable) and short-pulling to access messages. Registration is performed also via API with the use of tokenization.",
-      "history": "It was an elective course Enterprise Programming on JS I have chosen at the the Fall semester 2024. I was in a team of 3 people, we were working during the period of 2 months.",
+      "history": "It was an elective course Enterprise Programming on JS I have chosen at the the Fall semester 2024. I was in a team of 3 people, we were working during the period of 2 months. I was a team leader and made the biggest contribution to the project.",
       "ps": "Project should work properly, try it! Register (or use one of predefined users e.g. 'alice' with password'1234') and type some id to start chatting (e.g. 'alice', 'evead', 'frank')."
     },
     "textyle": {
@@ -106,7 +106,7 @@
     "school": {
       "short": "Telegram bot for an online-school (unfinished)",
       "body": "The telegram bot supports registration and choosing tracks (it is like a study program for a concrete subject). After that, a user can receive lectures and solve tests that correspond to a chosen track. Each test has deadlines (soft/medium/hard) that affect the score.",
-      "history": "I wanted to create an online school with my friend, my part was to write a useful and extendable telegram bot. However, a current state of a project is unfinished, a future development is unknown.",
+      "history": "I decided to create an online school with my friend, my part was to write a useful and extendable telegram bot. However, a current state of a project is unfinished.",
       "ps": "The project is unfinished, the only option is to review a code."
     },
     "compiler": {
@@ -127,5 +127,6 @@
     "body": "Main Part",
     "links": "Links",
     "back-button": "Back to the main page"
-  }
+  },
+  "contacts": "Contacts"
 }
