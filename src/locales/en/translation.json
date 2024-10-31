@@ -48,6 +48,10 @@
     "driving": {
       "name": "Driving licence",
       "description": "I can (and like to) drive a car"
+    },
+    "coins": {
+      "name": "Collecting coins",
+      "description": "I collect coins from different countries"
     }
   },
   "projects": {
@@ -84,9 +88,9 @@
     },
     "verilog": {
       "short": "A 'computer game' on FPGA (in Verilog language)",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "body": "It is a memory game: you to enter binary combinations (8 bits) using switches, where each combination corresponds to a label on a board. The goal is to repeat a picture on the another screen without making a mistake. In case of a mistake, you need to start from the beginning.",
+      "history": "I was participating in a non obligatory project of Computer Architecture course. I was in a team of three, we were able to choose any theme we wanted but it had to be related to a FPGA board.",
+      "ps": "Video contains a great music, we were glad that we could make this presentation more creative!"
     },
     "enigma": {
       "short": "A Model of the Enigma machine",
@@ -95,22 +99,22 @@
       "ps": "I was practicing my German, so the video is made only in German."
     },
     "game": {
-      "short": "Game in cmd",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "short": "Game in a console",
+      "body": "Rules are simple: move a tank without crossing the borders of a battlefield, then make a shoot and hit a target! The goal: destroy all targets before you will out of ammo. Targets are placed each time time randomly.",
+      "history": "I was at 10th year at school, I wanted to create something simple but interesting to interact with. So, I've written this game.",
+      "ps": "You can watch a video or review a code I have uploaded to GitHub."
     },
     "school": {
       "short": "Telegram bot for an online-school (unfinished)",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "body": "The telegram bot supports registration and choosing tracks (it is like a study program for a concrete subject). After that, a user can receive lectures and solve tests that correspond to a chosen track. Each test has deadlines (soft/medium/hard) that affect the score.",
+      "history": "I wanted to create an online school with my friend, my part was to write a useful and extendable telegram bot. However, a current state of a project is unfinished, a future development is unknown.",
+      "ps": "The project is unfinished, the only option is to review a code."
     },
     "compiler": {
       "short": "Compiler for I language (study project)",
-      "body": "",
-      "history": "",
-      "ps": ""
+      "body": "The first stage of a compiler is lexer (lexical analyzer that splits program text to meaningful words like 'if', 'for', identifiers etc.), then comes parser (syntax analyzer that converts this words to a tree), then - validator or optimizer (semantics analyzer). Finally, generator convertes it to machine commands.",
+      "history": "I've attended a Compile Construction course. Our task was to write a compiler for a simple language that was developed by our Professor. The name of the language is I, it is an imperative language (functions and function calls). The project was implemented in the C++ language.",
+      "ps": "There is only code, video is not created yet."
     }
   },
   "full-name": "Nikolai Petukhov",

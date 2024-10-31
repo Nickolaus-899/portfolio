@@ -44,7 +44,7 @@ export const backend_projects = [
         id: 'game',
         link: "",
         video: "https://youtu.be/FhSFZ4s1G14",
-        git: ""
+        git: "https://github.com/Nickolaus-899/mini_game"
     },
     {
         name: "MiTe School",
