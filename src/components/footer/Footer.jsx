@@ -34,7 +34,7 @@ const Footer = () => {
               </div>
 
               <div className="smooth-appear sm-slow">
-                  <h3>Contacts</h3>
+                  <h3>{t('contacts')}</h3>
                   <Contact text={"+7 953 999 44 73"} icon={phone} link={""}/>
                   <Contact text={"kolya.petukhov.03@mail.ru"} icon={email} link={""}/>
                   <Contact text={"gfq777@gmail.com"} icon={gmail} link={""}/>
