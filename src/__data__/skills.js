@@ -67,4 +67,9 @@ export const hobby = (t) => [
         description: t('hobby.driving.description'),
         id: "driving"
     },
+    {
+        name: t('hobby.coins.name'),
+        description: t('hobby.coins.description'),
+        id: "coins"
+    }
 ]

@@ -3,7 +3,7 @@
     flex-direction: row;
 }
 
-.guitar-f, .travel-f, .driving-f {
+.guitar-f, .travel-f, .driving-f, .coins-f {
     fill: rgba(0, 0, 0, 0);
     margin-left: 3px;
 }
@@ -107,6 +107,24 @@
 
 /*--------------------*/
 
+.fc0 {
+    margin-left: 8px;
+    margin-top: 1px;
+    transition: fill 0.5s ease;
+}
+
+.fc1 {
+    margin-top: 20px;
+    transition: fill 0.7s ease;
+}
+
+.fc2 {
+    margin-top: 1px;
+    transition: fill 1.0s ease;
+}
+
+/*--------------------*/
+
 .f-init {
 
 }
@@ -121,6 +139,10 @@
 
 .map-motion:hover {
     animation: up-animation 1s ease forwards;
+}
+
+.coins-motion:hover {
+    animation: circle-animation 1s ease forwards;
 }
 
 @keyframes rotate-animation {
@@ -165,6 +187,15 @@
     }
 }
 
+@keyframes circle-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 .f-init:hover ~ .guitar-f {
     fill: darkred;
@@ -176,4 +207,8 @@
 
 .f-init:hover ~ .driving-f {
     fill: darkblue;
+}
+
+.f-init:hover ~ .coins-f {
+    fill: orange;
 }
