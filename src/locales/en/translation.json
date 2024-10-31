@@ -1,5 +1,5 @@
 {
-  "my-description": "Frontend developer and 3-rd year student of the Innopolis University",
+  "my-description": "Frontend developer and a 3-rd year student of the Innopolis University",
   "de-description": "Study from my first course at university (autumn 2022), was in München for one month",
   "en-description": "Study in English at my university, attended a lot of extra classes to study this language",
   "ru-description": "Scored 89/100 at the Russian National Exam",
@@ -63,7 +63,7 @@
     },
     "textyle": {
       "short": "Transforming the style of text",
-      "body": "The idea is relatively simple: insert a text in any style, than convert it to the desired one. Then applying AI model that was connect with backend technics on Rust to the frontend on React.",
+      "body": "The idea is relatively simple: insert a text in any style, than convert it to the desired one. Then applying AI model that was connected with backend technics on Rust to the frontend on React.",
       "history": "This project was chosen as a topic of a Practicum Project course that was conducted in Summer 2024. We had 7 people at our team: team-leader, 2 frontend developers, 2 backend developers, 2 AI programmers. ",
       "ps": "Unfortunately, the backend server as well as AI model wasn't hosted and ran locally during the presentation. Nevertheless, you can watch a video prepared for the final submission and demonstration."
     },
@@ -75,26 +75,25 @@
     },
     "booking": {
       "short": "Booking study rooms",
-      "body": "The idea of the project: provide a convenient way to make bookings of university rooms for students and stuff. It was a telegram bot (with a Web App) that connected to an API related to bookings.",
+      "body": "The idea of the project: provide a convenient way to make bookings of university rooms for students and stuff. It was a telegram bot (with a Web App) that connected to an API related to booking of University rooms.",
       "history": "It was a summer project (2023) at the core course for a team of 5. There were 2 frontend developers, including me.",
       "ps": "There is no support for telegram bot anymore, however there is still a video about it. Enjoy watching it!"
     },
-
     "sna": {
       "short": "System for periodical change of passwords",
-      "body": "This is an encoding systems that can periodically change password keys for security. It is used to create, store, and automatically update keys using a scheduler (a key updates once a day). It was implemented via Telegram Bot on Linux OS.",
-      "history": "I was working on this project during a course named Software Networks and Administration. I was the author of an idea for a project and the implementor of the hardest part of it (working with scheduler on Linux and returning updated code).",
+      "body": "This is an encoding systems that can periodically change password keys for security. It is used to create, store, and automatically update keys using a scheduler (a key updates once a day). It was implemented via Telegram Bot and Linux OS.",
+      "history": "I was working on this project during a course named Software Networks and Administration. I was the author of an idea for a project and the implementor of the hardest part of it (working with scheduler on Linux and returning updated key).",
       "ps": "Initially, there wasn't even an idea to somehow host it, so there is only a video. It is relatively big (there were requirements of the course) but the most interesting part is at 6:25 (my college have explained before in the video that we have set update time to 22:27 instead of 00:00)."
     },
     "verilog": {
       "short": "A 'computer game' on FPGA (in Verilog language)",
-      "body": "It is a memory game: you to enter binary combinations (8 bits) using switches, where each combination corresponds to a label on a board. The goal is to repeat a picture on the another screen without making a mistake. In case of a mistake, you need to start from the beginning.",
-      "history": "I was participating in a non obligatory project of Computer Architecture course. I was in a team of three, we were able to choose any theme we wanted but it had to be related to a FPGA board.",
+      "body": "It is a memory game: you to enter binary combinations (8 bits) using switches, where each combination corresponds to a part of a digit screen. The goal is to repeat a picture on the another screen without making a mistake. In case of a mistake, you need to start from the beginning.",
+      "history": "I was participating in a voluntary project of Computer Architecture course. I was in a team of three, we were able to choose any theme we wanted but it had to be related to the programming on a FPGA board.",
       "ps": "Video contains a great music, we were glad that we could make this presentation more creative!"
     },
     "enigma": {
       "short": "A Model of the Enigma machine",
-      "body": "The Machine has 3 active rotors (you need to choose out of 5), that rotates after pressing any key. When the first rotor makes full rotation, it rotates the second rotor on one position and so on. You need to enter letters one-by-one, then you will receive the output.txt with the encoded text. Repeat procedure to decipher.",
+      "body": "The Machine has 3 active rotors (you can choose out of 5), that rotates after pressing any key. When the first rotor makes full rotation, it rotates the second rotor on one position and so on. You need to enter letters one-by-one, then you will receive the output.txt with the encoded text. Repeat procedure to decipher.",
       "history": "I had seen a film about encoding and deciphering and wanted to dive deeper in this theme, so I wrote a C++ project that demonstrates how the Enigma machine works.",
       "ps": "I was practicing my German, so the video is made only in German."
     },
@@ -113,7 +112,7 @@
     "compiler": {
       "short": "Compiler for I language (study project)",
       "body": "The first stage of a compiler is lexer (lexical analyzer that splits program text to meaningful words like 'if', 'for', identifiers etc.), then comes parser (syntax analyzer that converts this words to a tree), then - validator or optimizer (semantics analyzer). Finally, generator convertes it to machine commands.",
-      "history": "I've attended a Compile Construction course. Our task was to write a compiler for a simple language that was developed by our Professor. The name of the language is I, it is an imperative language (functions and function calls). The project was implemented in the C++ language.",
+      "history": "I've attended a Compiler Construction course. Our task was to write a compiler for a simple language that was developed by our Professor. The name of the language is I, it is an imperative language (functions and function calls). The project was implemented in the C++ language.",
       "ps": "There is only code, video is not created yet."
     }
   },

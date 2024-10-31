@@ -1,7 +1,131 @@
 {
+  "my-description": "Frontend-Entwickler und ein Student im dritten Jahr an der Innopolis Universität",
+  "de-description": "Lerne ab dem ersten Kurs (Herbst 2022), war für einen Monat in München",
+  "en-description": "An meiner Universität gibt es Studium auf Englisch, besuchte viele zusätzliche Kurse, um diese Sprache zu lernen",
+  "ru-description": "Erreichte 89/100 beim russischen Nationalexamen",
   "de": "Deutsch",
   "ru": "Russisch",
   "en": "Englisch",
-  "my-description": "Frontend-Entwickler und der 3. Jahr Student an der Innopolis Universität",
-  "native": "Muttersprache"
+  "native": "Muttersprache",
+  "inno-uni": {
+    "name": "Innopolis-Universität",
+    "duration": "habe in 2022 angefangen",
+    "field": "Softwareentwicklung",
+    "result": "Notendurchschnitt: 4,62"
+  },
+  "hsk": {
+    "name": "Sommerkurs in München",
+    "duration": "den gesamten August 2024",
+    "field": "Deutschlernen an der Ludwig-Maximilians-Universität (MISU)",
+    "result": "Ich habe B1.2 abgeschlossen"
+  },
+  "inno-lyc": {
+    "name": "Innopolis-Lyzeum",
+    "duration": "von 2020 bis 2022",
+    "field": "Mathematik, Physik, IT auf hohem Niveau",
+    "result": "Abschluss mit Auszeichnung"
+  },
+  "gymnasium": {
+    "name": "Gymnasium #37",
+    "duration": "von 2011 bis 2020",
+    "field": "Allgemeinbildung",
+    "result": "Abschluss mit Auszeichnung"
+  },
+  "skills": {
+    "languages": "Sprachen",
+    "education": "Ausbildung",
+    "hobby": "Hobby"
+  },
+  "hobby": {
+    "guitar": {
+      "name": "Gitarrespielen",
+      "description": "Ich spiele seit fast einem Jahr Gitarre und kann einige einfache Melodien spielen"
+    },
+    "travel": {
+      "name": "Reisen",
+      "description": "Ich habe 11 Länder besucht!"
+    },
+    "driving": {
+      "name": "Führerschein",
+      "description": "Ich kann Auto fahren (und fahre gern!)"
+    },
+    "coins": {
+      "name": "Münzsammlung",
+      "description": "Ich sammle Münzen aus verschiedenen Ländern"
+    }
+  },
+  "projects": {
+    "enterfront": {
+      "short": "Eine Chat-Anwendung",
+      "body": "Dieses Projekt ist eine einfache Chat-Anwendung. Es verwendet eine Pseudo-Datenbank (API mit einer lokalen Variablen) und Short-Pulling, um auf Nachrichten zuzugreifen. Die Anmeldung passiert auch über die API mit Verwendung der Tokenisierung.",
+      "history": "Es war ein Wahlkurs Enterprise Programming auf JS, den ich im Herbstsemester 2024 ausgesucht habe. Ich war in einem Team von 3 Personen, wir arbeiteten 2 Monaten lang.",
+      "ps": "Das Projekt sollte funktionieren, probieren Sie es selbst aus! Melden Sie sich ab (oder benutzen Sie einen Benutzer, z. B. 'alice' mit Passwort '1234') und geben Sie eine ID ein (z. B. 'alice', 'evead', 'frank'), um anzufangen zu chatten."
+    },
+    "textyle": {
+      "short": "Transformation des Stils von Text",
+      "body": "Die Idee ist relativ einfach: geben Sie einen Text in einem Stil ein und konvertieren Sie ihn dann in den gewünschten Stil. Dann wird ein KI-Modell angewendet, das mit Backend in Rust an das Frontend in React verbunden war.",
+      "history": "Dieses Projekt wurde als Thema für einen Praktikumskurs im Sommer 2024 gewählt. Wir hatten 7 Menschen in unserem Team: einen Teamleiter, 2 Frontend-Entwickler, 2 Backend-Entwickler, 2 KI-Programmierer.",
+      "ps": "Leider wurden der Backend-Server und das KI-Modell nicht gehostet. Sie wurden lokal während der Präsentation gestartet. Doch können Sie sich ein Video ansehen, das für die Abschlussvorführung vorbereitet wurde."
+    },
+    "fwd": {
+      "short": "Menüanwendung zum Posten und Bestellen",
+      "body": "Dieses Projekt verfolgt keine komplexe Idee, es demonstriert nur grundlegende Fähigkeiten in der Frontend-Entwicklung. Ein Benutzer kann viele verschiedener Gerichte sehen, die von Restaurantverwaltung gepostet wurden. Ein Benutzer kann sie in seinem Warenkorb legen und Kalorien und Preis rechnen. Administratoren können verschiedene Gerichte veröffentlichen.",
+      "history": "Das ist ein Abschlussprojekt für einen Wahlkurs zur Frontendentwicklung, den ich im Sommer 2023 besucht habe. Es gab ein kleines Team von 2 Personen. Für mich war dieser Kurs und das Projekt ein Anfang in die Frontend-Entwicklung.",
+      "ps": "Die Website funktioniert bis jetzt, aber einige Links zu Gerichten sind veraltet und nicht gültig, deshalb werden einige Bilder nicht angezeigt."
+    },
+    "booking": {
+      "short": "Buchung von Studienräumen",
+      "body": "Die Idee des Projekts: eine bequeme Möglichkeit zu bieten, Buchungen von Universitätsräumen für Studenten und Mitarbeiter zu machen. Es war ein Telegram-Bot (mit einer Web-App), der mit einer API (die Universitätsräumenbuchung) verbunden war.",
+      "history": "Es war ein Sommerprojekt (2023) im Kernkurs für ein Team von 5 Personen. Es gab 2 Frontend-Entwickler, mich eingeschlossen.",
+      "ps": "Es gibt keinen Unterstützung für den Telegram-Bot mehr, doch gibt es noch ein Video dazu. Viel Spaß beim Anschauen!"
+    },
+    "sna": {
+      "short": "Ein System für periodische Passwortänderungen",
+      "body": "Das ist ein Verschlüsselungssystem, das Passwortschlüssel regelmäßig zur Sicherheit ändern kann. Es wird verwendet, um Schlüssel zu erstellen, zu speichern und automatisch mithilfe eines Zeitplans zu aktualisieren (ein Schlüssel wird einmal täglich aktualisiert). Es wurde über einen Telegram-Bot und Linux-OS ausgeführt.",
+      "history": "Ich habe an diesem Projekt im Software Networks and Administration Kurs teilgenommen. Ich war der Autor der Idee für ein Projekt und der Implementator des schwierigsten Teils davon (Arbeit mit dem Zeitplaner auf Linux und Rückgabe des aktualisierten Schlüssels).",
+      "ps": "Ursprünglich war es nicht geplant, es zu hosten, deshalb gibt es nur ein Video. Es ist relativ lang (wegen Anforderungen des Kurses), aber der interessanteste Teil ist ab 6:25 (mein Kollege erklärte im Video zuvor, dass wir die Aktualisierungszeit auf 22:27 statt 00:00 eingestellt hatten)."
+    },
+    "verilog": {
+      "short": "Ein 'Computerspiel' auf FPGA (in Verilog-Sprache)",
+      "body": "Es ist ein Gedächtnisspiel: man muss Binärkombinationen (8 Bit) mit Schaltern eingeben, wobei jede Kombination einem Teil eines Zifferbildschirms entspricht. Das Ziel ist es, ein Bild auf einem anderen Bildschirm ohne Fehler zu wiederholen. Wenn es einen Fehler gibt, fängt man von vorne an.",
+      "history": "Ich nahm an einem freiwilligen Projekt des Computer Architecture Kurses teil. Ich war in einem Team von drei Personen, wir konnten jedes Thema auswählen, das wir wollten, es musste doch mit der Programmierung auf einem FPGA-Board zusammenhängen.",
+      "ps": "Das Video enthält tolle Musik, wir haben uns gefreut, dass wir diese Präsentation kreativer schaffen konnten!"
+    },
+    "enigma": {
+      "short": "Ein Modell der Enigma-Maschine",
+      "body": "Die Maschine hat 3 aktive Rotoren (man kann aus 5 aussuchen), die sich nach jedem Tastendruck drehen. Wenn der erste Rotor eine vollständige Drehung macht, dreht er den zweiten Rotor um eine Position und so weiter. Man muss Buchstaben einzeln eingeben, dann empfängt man die Datei output.txt mit dem verschlüsselten Text. Man wiederholt den Prozess, um zu entschlüsseln.",
+      "history": "Ich hatte einen Film über Verschlüsselung und Entschlüsselung geschaut und wollte mich tiefer in dieses Thema eintauchen, also schrieb ich ein C++ Projekt, das zeigt, wie die Enigma-Maschine funktioniert.",
+      "ps": "Ich habe mein Deutsch geübt, daher ist das Video nur auf Deutsch gemacht."
+    },
+    "game": {
+      "short": "Spiel in der Konsole",
+      "body": "Die Regeln sind einfach: bewegen Sie einen Panzer, ohne die Grenzen des Schlachtfelds zu überqueren, und schießen Sie dann, um ein Ziel zu treffen! Die Aufgabe: alle Ziele zu zerstören, bevor die Munition ausgeht. Die Ziele werden jedes Mal zufällig aufgestellt.",
+      "history": "Ich war in der 10. Klasse und wollte etwas Einfaches, doch Interessantes schaffen. Also habe ich dieses Spiel geschrieben.",
+      "ps": "Sie können sich ein Video oder den Code auf GitHub anschauen."
+    },
+    "school": {
+      "short": "Telegram-Bot für eine Online-Schule (unvollendet)",
+      "body": "Man kann sich anmelden und einen Studiumtrack auswählen. Danach bekommt man Zulassung zu Vorlesungen und Testen, die man lösen kann.",
+      "history": "Dieses Projekt war für eine Online-Schule gedacht, aber ich hatte die Arbeit daran beendet.",
+      "ps": "Das Projekt ist unvollendet, die einzige Möglichkeit hier ist, sich einen Code anschauen."
+    },
+    "compiler": {
+      "short": "Compiler für I-Sprache (Studienprojekt)",
+      "body": "Die erste Stufe eines Compilers ist der Lexer (lexikalischer Analysator, der das Programm in Wörter wie 'if', 'for', Identifier usw. aufteilt). Danach folgt der Parser (Syntaxanalysator, der diese Wörter in einen Baum aufstellt), anschließend der Validator oder Optimierer (semantischer Analysator). Schließlich übersetzt der Generator es in Maschinenbefehle.",
+      "history": "Ich habe einen Compiler Construction Kurs besucht. Unsere Aufgabe war es, einen Compiler für eine einfache Sprache, die von unserem Professor entwickelt wurde, zu schreiben. Der Name der Sprache ist I, sie ist eine imperative Sprache (Funktionen und Funktionsaufrufe). Das Projekt wurde in der Sprache C++ ausgeführt.",
+      "ps": "Es gibt nur den Code, ein Video wurde noch nicht aufgezeichnet."
+    },
+    "full-name": "Nikolai Petukhov",
+    "project-link": {
+      "website": "Webseite",
+      "video": "YouTube-Video",
+      "git": "GitHub-Repository"
+    },
+    "project-page": {
+      "history": "Geschichte",
+      "body": "Hauptteil",
+      "links": "Links",
+      "back-button": "Zurück zur Hauptseite"
+    }
+  }
 }
