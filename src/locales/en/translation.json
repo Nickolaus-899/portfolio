@@ -95,7 +95,7 @@
       "short": "A Model of the Enigma machine",
       "body": "The Machine has 3 active rotors (you can choose out of 5), that rotates after pressing any key. When the first rotor makes full rotation, it rotates the second rotor on one position and so on. You need to enter letters one-by-one, then you will receive the output.txt with the encoded text. Repeat procedure to decipher.",
       "history": "I had seen a film about encoding and deciphering and wanted to dive deeper in this theme, so I wrote a C++ project that demonstrates how the Enigma machine works.",
-      "ps": "I was practicing my German, so the video is made only in German."
+      "ps": "I was practicing my German, so the video is made only in German. However, I have prepared English subtitles so you can turn on them."
     },
     "game": {
       "short": "Game in a console",
