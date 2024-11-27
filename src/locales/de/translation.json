@@ -11,7 +11,7 @@
     "name": "Innopolis-Universität",
     "duration": "habe in 2022 angefangen",
     "field": "Softwareentwicklung",
-    "result": "Notendurchschnitt: 4,62"
+    "result": "Notendurchschnitt: 4.72"
   },
   "hsk": {
     "name": "Sommerkurs in München",
@@ -114,6 +114,14 @@
       "body": "Die erste Stufe eines Compilers ist der Lexer (lexikalischer Analysator, der das Programm in Wörter wie 'if', 'for', Identifier usw. aufteilt). Danach folgt der Parser (Syntaxanalysator, der diese Wörter in einen Baum aufstellt), anschließend der Validator oder Optimierer (semantischer Analysator). Schließlich übersetzt der Generator es in Maschinenbefehle.",
       "history": "Ich habe einen Compiler Construction Kurs besucht. Unsere Aufgabe war es, einen Compiler für eine einfache Sprache, die von unserem Professor entwickelt wurde, zu schreiben. Der Name der Sprache ist I, sie ist eine imperative Sprache (Funktionen und Funktionsaufrufe). Das Projekt wurde in der Sprache C++ ausgeführt.",
       "ps": "Es gibt nur den Code, ein Video wurde noch nicht aufgezeichnet."
+    }
+  },
+  "hackathons": {
+    "naimix": {
+      "short": "Innoviant Team (7. Platz von 66 Teams)",
+      "body": "Es ist eine Anwendung zur Erstellung von Vorhersagen mit Tarotkarten (naja, das war die Aufgabe des Hackathons). Der Frontend-Teil nimmt ein Geburtsdatum, berechnet alle Daten und sendet sie an das Backend, das wiederum eine Anfrage an Gigachat (eine KI-Modell von Sber) erstellt und sendet. Danach wird die 'Vorhersage' dem Nutzer angezeigt.",
+      "history": "Am 15. November 2024 haben wir an diesem Hackathon mit einem Team von 5 Mitgliedern teilgenommen. Ich habe den Frontend-Teil entwickelt: einige Seiten erstellt und die Verbindung zum Backend hergestellt. Schließlich haben wir den 7. Platz von 66 Teams genommen.",
+      "ps": "Alles sollte funktionieren – probieren Sie unsere Website einfach aus! Außerdem können Sie Ihnen ein kurzes Video ansehen, wenn Sie wollen."
     }
   },
   "full-name": "Nikolai Petukhov",

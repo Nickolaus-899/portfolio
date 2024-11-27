@@ -5,6 +5,7 @@ import Pages from "./pages/Pages";
 
 import {frontend_projects} from "./__data__/frontend";
 import {backend_projects} from "./__data__/backend";
+import {hackathons} from "./__data__/hackathons";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Pages
         frontend_projects={frontend_projects}
         backend_projects={backend_projects}
+        hackathons={hackathons}
       />
     </BrowserRouter>
   );
