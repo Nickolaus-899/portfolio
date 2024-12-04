@@ -26,8 +26,8 @@ export const backend_projects = [
         name: "Compiler for I language",
         path: URLs.compiler,
         id: 'compiler',
-        link: "",
-        video: "",
+        link: "https://docs.google.com/presentation/d/1gK7gm5BYc3mNxnu8Kc6z5YlusonbB39v4HsneHAoifA/edit?usp=sharing",
+        video: "https://youtu.be/Rq7Tf0jfLo0",
         git: "https://github.com/Tarsonis-team/Tarsonis-Compiler"
     },
     {

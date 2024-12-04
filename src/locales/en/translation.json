@@ -111,9 +111,9 @@
     },
     "compiler": {
       "short": "Compiler for I language (study project)",
-      "body": "The first stage of a compiler is lexer (lexical analyzer that splits program text to meaningful words like 'if', 'for', identifiers etc.), then comes parser (syntax analyzer that converts this words to a tree), then - validator or optimizer (semantics analyzer). Finally, generator convertes it to machine commands.",
+      "body": "The first stage of a compiler is lexer (lexical analyzer that splits program text to meaningful words like 'if', 'for', identifiers etc.), then comes parser (syntax analyzer that converts this words to a tree), then - validator or optimizer (semantics analyzer). Finally, generator converts it to machine commands for LLVM.",
       "history": "I've attended a Compiler Construction course. Our task was to write a compiler for a simple language that was developed by our Professor. The name of the language is I, it is an imperative language (functions and function calls). The project was implemented in the C++ language.",
-      "ps": "There is only code, video is not created yet."
+      "ps": "You can watch a video or check the code on GitHub, moreover you can view presentation on Google slides."
     }
   },
   "hackathons": {
