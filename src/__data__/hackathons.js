@@ -1,6 +1,7 @@
 import {URLs} from "./URLs";
 
 import viant from "./../images/hackathons/viant.ico"
+import yandexfrontend from "./../images/hackathons/yandexfrontend.svg"
 
 export const hackathons = [
     {
@@ -10,6 +11,11 @@ export const hackathons = [
         link: "https://viantfrontend.vercel.app/",
         video: "https://youtu.be/IF8dSadivCY",
         git: "https://github.com/innoviant"
+    },
+    {
+        name: "Я 💛 Фронтенд (2025)",
+        path: URLs.yandexfrontend,
+        id: "yandexfrontend"
     }
 ]
 
@@ -21,6 +27,13 @@ export const getHackathonExtra = (projectId, t) => {
             history: t('hackathons.naimix.history'),
             ps: t('hackathons.naimix.ps'),
             favicon: viant
+        },
+        yandexfrontend: {
+            short: t('hackathons.yandexfrontend.short'),
+            body: t('hackathons.yandexfrontend.body'),
+            history: t('hackathons.yandexfrontend.history'),
+            ps: t('hackathons.yandexfrontend.ps'),
+            favicon: yandexfrontend
         }
     }
 

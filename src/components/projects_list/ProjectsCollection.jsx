@@ -9,17 +9,10 @@ import {hackathons, getHackathonExtra} from "../../__data__/hackathons";
 const ProjectsCollection = () => {
     const frontHovers = generateFeatures('frcard', 4);
     const backHovers = generateFeatures('bccard', 6);
-    const hackathonHovers = generateFeatures('htcard', 1);
+    const hackathonHovers = generateFeatures('htcard', 2);
 
   return (
       <div>
-          <ProjectsList
-              title={"Hackathons"}
-              projects={hackathons}
-              extra={getHackathonExtra}
-              hovers={hackathonHovers}
-          />
-
           <ProjectsList
               title={"Frontend Projects"}
               projects={frontend_projects}
@@ -32,6 +25,13 @@ const ProjectsCollection = () => {
               projects={backend_projects}
               extra={getBackEndExtra}
               hovers={backHovers}
+          />
+
+          <ProjectsList
+              title={"Events"}
+              projects={hackathons}
+              extra={getHackathonExtra}
+              hovers={hackathonHovers}
           />
       </div>
   );

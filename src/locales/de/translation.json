@@ -1,5 +1,5 @@
 {
-  "my-description": "Frontend-Entwickler und ein Student im dritten Jahr an der Innopolis Universität",
+  "my-description": "Software-Entwickler und ein Student im dritten Jahr an der Innopolis Universität",
   "de-description": "Lerne ab dem ersten Kurs (Herbst 2022), war für einen Monat in München",
   "en-description": "An meiner Universität gibt es Studium auf Englisch, besuchte viele zusätzliche Kurse, um diese Sprache zu lernen",
   "ru-description": "Erreichte 89/100 beim russischen Nationalexamen",
@@ -39,11 +39,11 @@
   "hobby": {
     "guitar": {
       "name": "Gitarrespielen",
-      "description": "Ich spiele seit fast einem Jahr Gitarre und kann einige tolle Melodien spielen"
+      "description": "Ich spiele seit anderthalb Jahren Gitarre und kann einige tolle Melodien spielen"
     },
     "travel": {
       "name": "Reisen",
-      "description": "Ich habe 11 Länder besucht!"
+      "description": "Ich habe 13 Länder besucht!"
     },
     "driving": {
       "name": "Führerschein",
@@ -122,6 +122,12 @@
       "body": "Es ist eine Anwendung zur Erstellung von Vorhersagen mit Tarotkarten (naja, das war die Aufgabe des Hackathons). Der Frontend-Teil nimmt ein Geburtsdatum, berechnet alle Daten und sendet sie an das Backend, das wiederum eine Anfrage an Gigachat (eine KI-Modell von Sber) erstellt und sendet. Danach wird die 'Vorhersage' dem Nutzer angezeigt.",
       "history": "Am 15. November 2024 haben wir an diesem Hackathon mit einem Team von 5 Mitgliedern teilgenommen. Ich habe den Frontend-Teil entwickelt: einige Seiten erstellt und die Verbindung zum Backend hergestellt. Schließlich haben wir den 7. Platz von 66 Teams genommen.",
       "ps": "Alles sollte funktionieren – probieren Sie unsere Website einfach aus! Außerdem können Sie Ihnen ein kurzes Video ansehen, wenn Sie wollen."
+    },
+    "yandexfrontend": {
+      "short": "Frontend-Konferenz von Yandex",
+      "body": "Diese Konferenz war für allen, die sich für Frontend interessieren.",
+      "history": "Ich habe diese Veranstaltung am 15.02.2025 mit meinem Freund besucht. Wir wurden eingeladen, daher war der Eintritt kostenlos. Die Veranstaltung fand in Moskau statt, was für uns eine kleine Reise war.",
+      "ps": "Es war eine fantastische Gelegenheit, Erfahrungen von Experten in diesem Bereich zu sammeln!"
     }
   },
   "full-name": "Nikolai Petukhov",

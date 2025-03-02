@@ -16,5 +16,6 @@ export const URLs = {
     compiler: "/compiler",
 
     // Hackathons
-    naimix: "/naimix"
+    naimix: "/naimix",
+    yandexfrontend: "/yandexfrontend"
 }

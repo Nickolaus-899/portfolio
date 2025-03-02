@@ -1,5 +1,5 @@
 {
-  "my-description": "Frontend developer and a 3-rd year student of the Innopolis University",
+  "my-description": "Software developer and a 3-rd year student of the Innopolis University",
   "de-description": "Study from my first course at university (autumn 2022), was in München for one month",
   "en-description": "Study in English at my university, attended a lot of extra classes to study this language",
   "ru-description": "Scored 89/100 at the Russian National Exam",
@@ -39,11 +39,11 @@
   "hobby": {
     "guitar": {
       "name": "Playing guitar",
-      "description": "I play guitar almost one year and can play beautiful melodies"
+      "description": "I play guitar one and a half year and can play beautiful melodies"
     },
     "travel": {
       "name": "Travelling",
-      "description": "I've visited 11 countries!"
+      "description": "I've visited 13 countries!"
     },
     "driving": {
       "name": "Driving licence",
@@ -122,6 +122,12 @@
       "body": "It is an application for making prediction using Tarot cards (yeah, it was a task of the hackathon). The Frontend part takes a date of birth, calculate all data and sends it to the Backend, that in turn creates and sends a request to a Gigachat (AI model from Sber). After that, 'prediction' is displayed to a user.",
       "history": "At 15th of November 2024, we took part at this hackathon with a team of 5 members. I was developing a Frontend part: making some pages and connecting to a Backend part. Finally, we have taken 7th place out of 66 teams.",
       "ps": "Everything should work, you can try yourself our website! Moreover, you can check a short video if you wish."
+    },
+    "yandexfrontend": {
+      "short": "Frontend conference from Yandex",
+      "body": "This conference was dedicated to all people were was interested in the Front-End.",
+      "history": "I visited this event with my friend on 15.02.2025. We were invited, so it was free to enter. The event took place in Moscow, making it a mini trip for us.",
+      "ps": "It was a fantastic opportunity to get experience from experts in this area!"
     }
   },
   "full-name": "Nikolai Petukhov",
