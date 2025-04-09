@@ -110,10 +110,16 @@
       "ps": "The project is unfinished, the only option is to review a code."
     },
     "compiler": {
-      "short": "Compiler for I language (study project)",
+      "short": "Compiler for an I language (study project)",
       "body": "The first stage of a compiler is lexer (lexical analyzer that splits program text to meaningful words like 'if', 'for', identifiers etc.), then comes parser (syntax analyzer that converts this words to a tree), then - validator or optimizer (semantics analyzer). Finally, generator converts it to machine commands for LLVM.",
       "history": "I've attended a Compiler Construction course. Our task was to write a compiler for a simple language that was developed by our Professor. The name of the language is I, it is an imperative language (functions and function calls). The project was implemented in the C++ language.",
       "ps": "You can watch a video or check the code on GitHub, moreover you can view presentation on Google slides."
+    },
+    "stella": {
+      "short": "Type-checker for the Stella language",
+      "body": "The task was to develop type checking system for this language: either return OK or specific error. I used different approaches and methods of OOP as well as various features of the C++ language to develop this checker.",
+      "history": "This project was the main part of the Advanced Compiler course. Stella is a functional statically typed extensible language for learning. Lexer and Parser were given.",
+      "ps": "Code and video with the work will be available later."
     }
   },
   "hackathons": {
@@ -128,6 +134,18 @@
       "body": "This conference was dedicated to all people were was interested in the Front-End.",
       "history": "I visited this event with my friend on 15.02.2025. We were invited, so it was free to enter. The event took place in Moscow, making it a mini trip for us.",
       "ps": "It was a fantastic opportunity to get experience from experts in this area!"
+    },
+    "purplehack": {
+      "short": "InnoGlow Team (8th out of 308 teams)",
+      "body": "The cases I was involved in: backend part of a chat-application with an AI-assistant to find and purchase cosmetics (also, harmful components were displaying if any); the main (evolutionary) algorith for virtual machines distributor (among servers/hosts).",
+      "history": "From the 7th till 15th of March 2025, we took part at the hackathon from MIPT with a team of 5 members. There were 5 distinct cases related to backend, AI, data analytics. We spent the whole week on it, went to the final stage, took 8th place.",
+      "ps": "We recorded a video for one case (chat-application), the code was stored in a private repository."
+    },
+    "youngyandex": {
+      "short": "Young&&Yandex event",
+      "body": "This event was for interns, students, people from high school. There, a participant could visit lectures, talk with professionals from Yandex, and interact with people who are also interested in this sphere.",
+      "history": "As at the Yandex Frontend Conference, we were invited to it (21.03), it was free to enter for us. I have chosen backend direction there.",
+      "ps": "This was a great chance to dive into professional sphere and get to know a lot of specialists."
     }
   },
   "full-name": "Nikolai Petukhov",

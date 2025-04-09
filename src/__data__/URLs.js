@@ -14,8 +14,11 @@ export const URLs = {
     game: "/game",
     school: "/school",
     compiler: "/compiler",
+    stella: "/stella",
 
     // Hackathons
     naimix: "/naimix",
-    yandexfrontend: "/yandexfrontend"
+    yandexfrontend: "/yandexfrontend",
+    purplehack: "/purplehack",
+    youngyandex: "/youngyandex"
 }

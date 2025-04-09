@@ -31,6 +31,11 @@ export const backend_projects = [
         git: "https://github.com/Tarsonis-team/Tarsonis-Compiler"
     },
     {
+        name: "Type-Checker for the Stella language",
+        path: URLs.stella,
+        id: 'stella'
+    },
+    {
         name: "Enigma",
         path: URLs.enigma,
         id: 'enigma',
@@ -98,6 +103,13 @@ export const getBackEndExtra = (projectId, t) => {
             body: t('projects.compiler.body'),
             history: t('projects.compiler.history'),
             ps: t('projects.compiler.ps'),
+            favicon: c
+        },
+        stella: {
+            short: t('projects.stella.short'),
+            body: t('projects.stella.body'),
+            history: t('projects.stella.history'),
+            ps: t('projects.stella.ps'),
             favicon: c
         }
     };

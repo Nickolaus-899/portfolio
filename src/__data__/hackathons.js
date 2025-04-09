@@ -2,6 +2,8 @@ import {URLs} from "./URLs";
 
 import viant from "./../images/hackathons/viant.ico"
 import yandexfrontend from "./../images/hackathons/yandexfrontend.svg"
+import y_y from "./../images/hackathons/y_y.svg"
+import purple_logo from "./../images/hackathons/purple_logo.png"
 
 export const hackathons = [
     {
@@ -13,9 +15,20 @@ export const hackathons = [
         git: "https://github.com/innoviant"
     },
     {
+        name: "Purple Hack (2025)",
+        path: URLs.purplehack,
+        id: "purplehack",
+        video: "https://www.youtube.com/watch?v=v5AuYZuOlBU"
+    },
+    {
         name: "Я 💛 Фронтенд (2025)",
         path: URLs.yandexfrontend,
         id: "yandexfrontend"
+    },
+    {
+        name: "Young&&Yandex (2025)",
+        path: URLs.youngyandex,
+        id: "youngyandex"
     }
 ]
 
@@ -34,6 +47,20 @@ export const getHackathonExtra = (projectId, t) => {
             history: t('hackathons.yandexfrontend.history'),
             ps: t('hackathons.yandexfrontend.ps'),
             favicon: yandexfrontend
+        },
+        purplehack: {
+            short: t('hackathons.purplehack.short'),
+            body: t('hackathons.purplehack.body'),
+            history: t('hackathons.purplehack.history'),
+            ps: t('hackathons.purplehack.ps'),
+            favicon: purple_logo
+        },
+        youngyandex: {
+            short: t('hackathons.youngyandex.short'),
+            body: t('hackathons.youngyandex.body'),
+            history: t('hackathons.youngyandex.history'),
+            ps: t('hackathons.youngyandex.ps'),
+            favicon: y_y
         }
     }
 
