@@ -7,22 +7,6 @@ import verilog from "./../images/backend/verilog.svg";
 
 export const backend_projects = [
     {
-        name: "Encoding System",
-        path: URLs.sna,
-        id: "sna",
-        link: "",
-        video: "https://youtu.be/k_iecYOyZIU",
-        git: "https://gitlab.pg.innopolis.university/sna_project/id_api"
-    },
-    {
-        name: "Memory Game",
-        path: URLs.verilog,
-        id: 'verilog',
-        link: "",
-        video: "https://www.youtube.com/watch?v=QAkkXCagOs0",
-        git: "https://github.com/Nickolaus-899/FPGA-project-by-Marakuja"
-    },
-    {
         name: "Compiler for I language",
         path: URLs.compiler,
         id: 'compiler',
@@ -42,6 +26,22 @@ export const backend_projects = [
         link: "",
         video: "https://youtu.be/FkCvo4SNY10",
         git: "https://github.com/Nickolaus-899/Enigma"
+    },
+    {
+        name: "Memory Game",
+        path: URLs.verilog,
+        id: 'verilog',
+        link: "",
+        video: "https://www.youtube.com/watch?v=QAkkXCagOs0",
+        git: "https://github.com/Nickolaus-899/FPGA-project-by-Marakuja"
+    },
+    {
+        name: "Encoding System",
+        path: URLs.sna,
+        id: "sna",
+        link: "",
+        video: "https://youtu.be/k_iecYOyZIU",
+        git: "https://gitlab.pg.innopolis.university/sna_project/id_api"
     },
     {
         name: "Mini-game at cmd",

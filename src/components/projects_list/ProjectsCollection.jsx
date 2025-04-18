@@ -14,17 +14,17 @@ const ProjectsCollection = () => {
   return (
       <div>
           <ProjectsList
-              title={"Frontend Projects"}
-              projects={frontend_projects}
-              extra={getFrontEndExtra}
-              hovers={frontHovers}
-          />
-
-          <ProjectsList
               title={"Backend Projects"}
               projects={backend_projects}
               extra={getBackEndExtra}
               hovers={backHovers}
+          />
+
+          <ProjectsList
+              title={"Frontend Projects"}
+              projects={frontend_projects}
+              extra={getFrontEndExtra}
+              hovers={frontHovers}
           />
 
           <ProjectsList
