@@ -7,6 +7,12 @@ import verilog from "./../images/backend/verilog.svg";
 
 export const backend_projects = [
     {
+        name: "DBus client-server",
+        path: URLs.dbus,
+        id: "dbus",
+        git: "https://github.com/Nickolaus-899/DBus_project"
+    },
+    {
         name: "Compiler for I language",
         path: URLs.compiler,
         id: 'compiler',
@@ -17,7 +23,8 @@ export const backend_projects = [
     {
         name: "Type-Checker for the Stella language",
         path: URLs.stella,
-        id: 'stella'
+        id: 'stella',
+        git: "https://github.com/Nickolaus-899/Stella_compiler"
     },
     {
         name: "Enigma",
@@ -110,6 +117,13 @@ export const getBackEndExtra = (projectId, t) => {
             body: t('projects.stella.body'),
             history: t('projects.stella.history'),
             ps: t('projects.stella.ps'),
+            favicon: c
+        },
+        dbus: {
+            short: t('projects.dbus.short'),
+            body: t('projects.dbus.body'),
+            history: t('projects.dbus.history'),
+            ps: t('projects.dbus.ps'),
             favicon: c
         }
     };

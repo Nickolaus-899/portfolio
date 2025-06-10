@@ -6,6 +6,7 @@ export const URLs = {
     fwd: "/fwd",
     booking: "/booking",
     enterfront: "/enterfront",
+    portfolio: "/portfolio",
 
     // Backend
     verilog: "/verilog",
@@ -15,10 +16,12 @@ export const URLs = {
     school: "/school",
     compiler: "/compiler",
     stella: "/stella",
+    dbus: "/dbus",
 
     // Hackathons
     naimix: "/naimix",
     yandexfrontend: "/yandexfrontend",
     purplehack: "/purplehack",
-    youngyandex: "/youngyandex"
+    youngyandex: "/youngyandex",
+    merge: "/merge"
 }

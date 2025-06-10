@@ -1,5 +1,5 @@
 {
-  "my-description": "Software-Entwickler und ein Student im dritten Jahr an der Innopolis Universität",
+  "my-description": "C++ Entwickler und ein Student im dritten Jahr an der Innopolis Universität",
   "de-description": "Lerne ab dem ersten Kurs (Herbst 2022), war für einen Monat in München",
   "en-description": "An meiner Universität gibt es Studium auf Englisch, besuchte viele zusätzliche Kurse, um diese Sprache zu lernen",
   "ru-description": "Erreichte 89/100 beim russischen Nationalexamen",
@@ -39,7 +39,7 @@
   "hobby": {
     "guitar": {
       "name": "Gitarrespielen",
-      "description": "Ich spiele seit anderthalb Jahren Gitarre und kann einige tolle Melodien spielen"
+      "description": "Ich spiele seit fast zwei Jahren Gitarre und kann einige tolle Melodien spielen"
     },
     "travel": {
       "name": "Reisen",
@@ -119,7 +119,19 @@
       "short": "Typüberprüfer für die Sprache Stella",
       "body": "Die Aufgabe bestand darin, ein System zur Typüberprüfung für diese Sprache zu entwickeln: entweder OK zurückgeben oder einen spezifischen Fehler. Ich habe verschiedene Ansätze und OOP-Methoden sowie diverse C++-Funktionen genutzt, um diesen Checker zu entwickeln.",
       "history": "Dieses Projekt war der Hauptbestandteil des Kurses „Advanced Compiler“. Stella ist eine funktionale, statisch typisierte, erweiterbare Sprache zum Lernen. Der Lexer und Parser wurden vorgegeben.",
-      "ps": "Code und Video werden später sein."
+      "ps": "Code ist verfügbar."
+    },
+    "dbus": {
+      "short": "Client-Server mit DBus",
+      "body": "In diesem Projekt wurde die Kommunikation zwischen einem Client und einem Server über den Session-Bus umgesetzt. Der Client gibt alle N Sekunden einen String S aus. Der Server speichert die Konfiguration der Clients (N und S) und kann über Methodenaufrufe und Signale den Client beeinflussen – zum Beispiel das Intervall oder den String ändern.",
+      "history": "Das war meine Testaufgabe für ein Unternehmen. Zur Vorbereitung habe ich das entsprechende GitHub-Repository zur SDBus-Bibliothek in C++ durchgesehen.",
+      "ps": "Der Code ist in meinem GitHub-Repository verfügbar. Im Code selbst gibt es viele Kommentare, die die Funktionsweise erklären."
+    },
+    "portfolio": {
+      "short": "Diese Seite",
+      "body": "Ich habe versucht, ein qualitativ hochwertiges Frontend-Projekt zu erstellen und dabei die besten Empfehlungen zu befolgen. Zusätzlich habe ich zur Übung meine Seite auf einem eigenen Server mit Docker gehostet und HTTPS mit Zertifikaten eingerichtet.",
+      "history": "Hier geht es um diese Portfolio-Seite. Ich habe sie selbst mit React geschrieben, um meine Projekte und Erfolge zu präsentieren. Ich habe die Hosting-Plattform Vercel genutzt und das Projekt mit dem Repository verbunden.",
+      "ps": "Ich hinterlasse einen Link zu einem 'Spiegel' meiner Portfolio-Seite (.online statt .ru). Da ich diese Version manuell aktualisiere, kann sie der Hauptseite etwas hinterherhinken."
     }
   },
   "hackathons": {
@@ -146,6 +158,12 @@
       "body": "Diese Veranstaltung richtete sich an Praktikanten, Studenten und Schüler. Die Teilnehmer konnten Vorträge besuchen, mit Fachleuten von Yandex sprechen und sich mit Gleichgesinnten austauschen.",
       "history": "Wie bei der Yandex Frontend-Konferenz wurden wir eingeladen (21.03), der Eintritt war frei. Ich habe dort die Backend-Richtung gewählt.",
       "ps": "Es war eine großartige Gelegenheit, in die professionelle Welt einzutauchen und viele Spezialisten kennenzulernen."
+    },
+    "merge": {
+      "short": "Merge-Konferenz",
+      "body": "Ich habe einige Vorträge zu Backend und Frontend besucht, viel Neues gelernt und die Zeit genossen.",
+      "history": "Die Konferenz fand an der Universität Innopolis statt, und ich hatte die Möglichkeit, daran teilzunehmen.",
+      "ps": "Ich habe an kleinen Wettbewerben teilgenommen, die von verschiedenen Firmen organisiert wurden (zum Beispiel Fehlersuche im Code), und einzigartigen Merch erhalten."
     }
   },
   "full-name": "Nikolai Petukhov",

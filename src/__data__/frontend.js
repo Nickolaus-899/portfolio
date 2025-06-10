@@ -4,6 +4,7 @@ import enterfront from "./../images/frontend/enterfront.svg";
 import fwd from "./../images/frontend/fwd.ico";
 import textyle from "./../images/frontend/textyle.ico";
 import booking from "./../images/frontend/booking.svg";
+import portfolio from "./../images/frontend/portfolio.svg";
 
 export const frontend_projects = [
     {
@@ -37,6 +38,14 @@ export const frontend_projects = [
         link: "",
         video: "https://youtu.be/CgztJYxvnhU",
         git: "https://gitlab.pg.innopolis.university/a.savchenko/innobookingbotfrontend"
+    },
+    {
+        name: "Portfolio",
+        path: URLs.portfolio,
+        id: 'portfolio',
+        link: "https://nikolaus-portfolio.online/",
+        video: "",
+        git: ""
     }
 ]
 
@@ -69,6 +78,13 @@ export const getFrontEndExtra = (projectId, t) => {
             history: t('projects.booking.history'),
             ps: t('projects.booking.ps'),
             favicon: booking
+        },
+        "portfolio": {
+            short: t('projects.portfolio.short'),
+            body: t('projects.portfolio.body'),
+            history: t('projects.portfolio.history'),
+            ps: t('projects.portfolio.ps'),
+            favicon: portfolio
         }
     };
 

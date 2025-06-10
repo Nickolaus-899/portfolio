@@ -8,6 +8,7 @@ import instagram from "../../images/footer/instagram.svg"
 import git from "../../images/footer/git.png"
 import logo from "../../images/footer/logo.svg"
 import gmail from "../../images/footer/gmail.svg"
+import leetcode from "../../images/footer/leetcode.svg"
 
 import {useTranslation} from "react-i18next";
 import Contact from "./Contact.jsx";
@@ -42,6 +43,7 @@ const Footer = () => {
                   <Contact text={"petukhovnickolaus"} icon={instagram}
                            link={"https://www.instagram.com/petukhovnickolaus"}/>
                   <Contact text={"Nickolaus-899"} icon={git} link={"https://github.com/Nickolaus-899"}/>
+                  <Contact text={"Nickolaus_SDR"} icon={leetcode} link={"https://leetcode.com/u/Nickolaus_SDR/"}/>
               </div>
           </div>
 

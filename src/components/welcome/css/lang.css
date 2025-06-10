@@ -34,6 +34,10 @@
     font-weight: normal;
 }
 
+.description-main {
+    padding: 0 10vw 0;
+}
+
 @media only screen and (max-width: 800px) {
     .language-button {
         margin-top: 18px;

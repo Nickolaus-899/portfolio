@@ -4,6 +4,7 @@ import viant from "./../images/hackathons/viant.ico"
 import yandexfrontend from "./../images/hackathons/yandexfrontend.svg"
 import y_y from "./../images/hackathons/y_y.svg"
 import purple_logo from "./../images/hackathons/purple_logo.png"
+import merge_logo from "./../images/hackathons/merge_logo.png"
 
 export const hackathons = [
     {
@@ -29,6 +30,11 @@ export const hackathons = [
         name: "Young&&Yandex (2025)",
         path: URLs.youngyandex,
         id: "youngyandex"
+    },
+    {
+        name: "Merge conference",
+        path: URLs.merge,
+        id: "merge"
     }
 ]
 
@@ -61,6 +67,13 @@ export const getHackathonExtra = (projectId, t) => {
             history: t('hackathons.youngyandex.history'),
             ps: t('hackathons.youngyandex.ps'),
             favicon: y_y
+        },
+        merge: {
+            short: t('hackathons.merge.short'),
+            body: t('hackathons.merge.body'),
+            history: t('hackathons.merge.history'),
+            ps: t('hackathons.merge.ps'),
+            favicon: merge_logo
         }
     }
 

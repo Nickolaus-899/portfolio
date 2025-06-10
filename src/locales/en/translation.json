@@ -1,5 +1,5 @@
 {
-  "my-description": "Software developer and a 3-rd year student of the Innopolis University",
+  "my-description": "C++ developer and a 3-rd year student of the Innopolis University",
   "de-description": "Study from my first course at university (autumn 2022), was in München for one month",
   "en-description": "Study in English at my university, attended a lot of extra classes to study this language",
   "ru-description": "Scored 89/100 at the Russian National Exam",
@@ -39,7 +39,7 @@
   "hobby": {
     "guitar": {
       "name": "Playing guitar",
-      "description": "I play guitar one and a half year and can play beautiful melodies"
+      "description": "I play guitar almost two years and can play beautiful melodies"
     },
     "travel": {
       "name": "Travelling",
@@ -119,7 +119,19 @@
       "short": "Type-checker for the Stella language",
       "body": "The task was to develop type checking system for this language: either return OK or specific error. I used different approaches and methods of OOP as well as various features of the C++ language to develop this checker.",
       "history": "This project was the main part of the Advanced Compiler course. Stella is a functional statically typed extensible language for learning. Lexer and Parser were given.",
-      "ps": "Code and video with the work will be available later."
+      "ps": "Code is available below."
+    },
+    "dbus": {
+      "short": "Client-server on DBus",
+      "body": "This project implements communication between a client and a server on a session bus. The client prints a string S every N seconds. The server stores the configuration for clients (N and S) and can influence the client via method calls and signal sending — for example, to change the print interval or the string itself.",
+      "history": "This was my test assignment for a company. To complete it, I studied the relevant GitHub repository for the SDBus library in C++.",
+      "ps": "The code is available in my GitHub repository. The code itself contains many comments explaining how it works."
+    },
+    "portfolio": {
+      "short": "This page",
+      "body": "I tried to build a high-quality frontend project, following best practices. Moreover, to sharpen my skills, I deployed this page on my personal server using Docker and configured HTTPS access using certificates.",
+      "history": "Yes, this is about the portfolio page you’re currently viewing. I developed it myself using React to showcase my projects and accomplishments. I used the Vercel hosting platform and connected it to the repository.",
+      "ps": "I'll include a link to a 'mirror' of this portfolio page (with .online instead of .ru). Since I update it manually, it may lag behind the main version."
     }
   },
   "hackathons": {
@@ -146,6 +158,12 @@
       "body": "This event was for interns, students, people from high school. There, a participant could visit lectures, talk with professionals from Yandex, and interact with people who are also interested in this sphere.",
       "history": "As at the Yandex Frontend Conference, we were invited to it (21.03), it was free to enter for us. I have chosen backend direction there.",
       "ps": "This was a great chance to dive into professional sphere and get to know a lot of specialists."
+    },
+    "merge": {
+      "short": "Merge Conference",
+      "body": "I attended several backend and frontend lectures, learned a lot of new things, and had a great time.",
+      "history": "The conference took place at Innopolis University, and I had the chance to attend.",
+      "ps": "I took part in small contests organized by different companies (like code bug hunting) and received unique merchandise."
     }
   },
   "full-name": "Nikolai Petukhov",

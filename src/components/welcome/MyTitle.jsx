@@ -7,7 +7,7 @@ const MyTitle = () => {
   return (
       <div className="initTitle">
           <h1 className="mclaren-regular">Nikolai Petukhov</h1>
-          <p className="mclaren-regular">
+          <p className="mclaren-regular description-main">
               {t('my-description')}
           </p>
       </div>
