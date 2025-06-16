@@ -54,6 +54,18 @@
       "description": "Ich sammle Münzen aus verschiedenen Ländern"
     }
   },
+  "exp-item": {
+    "field-h": "Fach",
+    "interesting-h": "Darüber"
+  },
+  "experience": {
+    "itdep": {
+      "name": "Praktikum in der IT-Abteilung",
+      "duration": "ab 25. Mai 2025",
+      "field": "IT-Support, Arbeit im Serverraum, verschiedene grundlegende Aufgaben",
+      "interesting": "Kannte mit der Netzwerkeinrichtung aus, erstellte einen Telegram-Bot für die Abteilung, der Benachrichtigungen an Mitarbeiter sendet"
+    }
+  },
   "projects": {
     "enterfront": {
       "short": "Eine Chat-Anwendung",

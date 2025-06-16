@@ -1,0 +1,23 @@
+@import "./css/exp.css";
+@import "./css/colorSwitch.css";
+
+
+.exp-lst-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.exp-lst-wrapper h1 {
+    font-size: 4vw;
+}
+
+@media only screen and (max-width: 800px) {
+    .exp-lst-wrapper h1 {
+        font-size: 30px;
+    }
+}
+

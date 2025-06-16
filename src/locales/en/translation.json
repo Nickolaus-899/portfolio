@@ -54,6 +54,18 @@
       "description": "I collect coins from different countries"
     }
   },
+  "exp-item": {
+    "field-h": "Field",
+    "interesting-h": "More"
+  },
+  "experience": {
+    "itdep": {
+      "name": "Internship in IT Department",
+      "duration": "from May 25, 2025",
+      "field": "IT support, server room work, various basic tasks",
+      "interesting": "Investigated network equipment, created and hosted a Telegram bot for the department that sends notifications to employees"
+    }
+  },
   "projects": {
     "enterfront": {
       "short": "A chat application",
