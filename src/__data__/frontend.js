@@ -45,7 +45,7 @@ export const frontend_projects = [
         id: 'portfolio',
         link: "https://nikolaus-portfolio.online/",
         video: "",
-        git: ""
+        git: "https://github.com/Nickolaus-899/portfolio"
     }
 ]
 
