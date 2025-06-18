@@ -7,7 +7,7 @@ const app = express();
 const HTTP_PORT = 80; // HTTP
 const HTTPS_PORT = 443; // HTTPS
 
-const KEY_PATH = 'keys'
+const KEY_PATH = '/etc/letsencrypt/live/nikolaus-portfolio.online'
 // /etc/letsencrypt/live/nikolaus-portfolio.online
 
 const privateKey = fs.readFileSync(`${KEY_PATH}/privkey.pem`, 'utf8');

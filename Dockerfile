@@ -5,7 +5,8 @@ WORKDIR /app
 COPY package.json .
 COPY package-lock.json .
 
-COPY keys keys
+# COPY keys keys
+# RUN mkdir keys
 
 RUN npm install
 
