@@ -1,7 +1,7 @@
 export const languages = (t) => [
     {
         id: 'de',
-        knowledge: "B2 (onSET)",
+        knowledge: "B2 (Goethe)",
         description: t('de-description')
     },
     {
