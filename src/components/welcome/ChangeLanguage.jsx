@@ -15,7 +15,7 @@ const ChangeLanguage = (props) => {
               onClick={() => changeLanguage(target)}
               className="language-button"
           >
-              <p className="dynamic-underline lang-option">{t(target)}</p>
+              <p className="dynamic-underline lang-option init-with-shadow">{t(target)}</p>
           </button>
       </div>
   );

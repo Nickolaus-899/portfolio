@@ -6,8 +6,8 @@ const MyTitle = () => {
 
   return (
       <div className="initTitle">
-          <h1 className="mclaren-regular">Nikolai Petukhov</h1>
-          <p className="mclaren-regular description-main">
+          <h1 className="mclaren-regular init-with-shadow">Nikolai Petukhov</h1>
+          <p className="mclaren-regular description-main init-with-shadow">
               {t('my-description')}
           </p>
       </div>
