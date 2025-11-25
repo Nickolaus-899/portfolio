@@ -63,6 +63,14 @@
     color: rgb(50, 21, 73);
 }
 
+.edu-zhu {
+    background-color: rgba(177, 48, 48, 0.8);
+}
+
+.edu-zhu h3, .edu-zhu p {
+    color: rgb(131, 34, 34);
+}
+
 .edu-sch {
     background-color: rgba(179, 102, 13, 0.8);
 }

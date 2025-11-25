@@ -19,6 +19,12 @@
     "field": "Deutschlernen an der Ludwig-Maximilians-Universität (MISU)",
     "result": "Ich habe B1.2 abgeschlossen"
   },
+  "zhu": {
+    "name": "Sommerprogramm in Zhuhai (China)",
+    "duration": "Juli 2025",
+    "field": "Global Leadership am Beijing Institute of Technology (BIT)",
+    "result": "Erfolgreich abgeschlossen"
+  },
   "inno-lyc": {
     "name": "Innopolis-Lyzeum",
     "duration": "von 2020 bis 2022",
@@ -61,9 +67,15 @@
   "experience": {
     "itdep": {
       "name": "Praktikum in der IT-Abteilung",
-      "duration": "ab 25. Mai 2025",
+      "duration": "25. Mai - 1. July 2025",
       "field": "IT-Support, Arbeit im Serverraum, verschiedene grundlegende Aufgaben",
       "interesting": "Kannte mit der Netzwerkeinrichtung aus, erstellte einen Telegram-Bot für die Abteilung, der Benachrichtigungen an Mitarbeiter sendet"
+    },
+    "sysadmin": {
+      "name": "Systemadministrator (IT-Abteilung)",
+      "duration": "seit 17. September 2025",
+      "field": "IT-Support, Einrichtung von Betriebssystemen, Lösung von Netzwerkproblemen",
+      "interesting": "Verwaltung von OS-Installationen, Behebung von Hardware-/Softwareproblemen, Vorbereitung der IT-Infrastruktur für Universitätsveranstaltungen und Olympiaden, Anschluss von Peripheriegeräten, Unterstützung bei verschiedenen Anliegen"
     }
   },
   "projects": {
@@ -144,6 +156,12 @@
       "body": "Ich habe versucht, ein qualitativ hochwertiges Frontend-Projekt zu erstellen und dabei die besten Empfehlungen zu befolgen. Zusätzlich habe ich zur Übung meine Seite auf einem eigenen Server mit Docker gehostet und HTTPS mit Zertifikaten eingerichtet.",
       "history": "Hier geht es um diese Portfolio-Seite. Ich habe sie selbst mit React geschrieben, um meine Projekte und Erfolge zu präsentieren. Ich habe die Hosting-Plattform Vercel genutzt und das Projekt mit dem Repository verbunden.",
       "ps": "Ich hinterlasse einen Link zu einem 'Spiegel' meiner Portfolio-Seite (.online statt .ru). Da ich diese Version manuell aktualisiere, kann sie der Hauptseite etwas hinterherhinken."
+    },
+    "fc": {
+      "short": "Entwicklung eines FPGA-basierten Netzwerkanalysators/Routers",
+      "body": "Wir entwickeln Hardwarelösungen mit Verilog und C für einen Industriepartner. Die Erfahrung als Systemadministrator hilft mir, zusammen mit dem Team komplexe systemweite Probleme zu lösen, wie zum Beispiel die Implementierung eines eigenen DHCP-Servers für Network Boot.",
+      "history": "Ich nehme zusammen mit zwei Studierenden an einem kommerziellen Projekt teil. Dieses Projekt zielt darauf ab, einen auf FPGA basierenden Fibre-Channel-Switch zu entwickeln, der später zu einem Router und anschließend zu einem Analysator erweitert wird.",
+      "ps": "Das Projekt ist noch im Gange."
     }
   },
   "hackathons": {

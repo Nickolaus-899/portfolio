@@ -7,6 +7,12 @@ import verilog from "./../images/backend/verilog.svg";
 
 export const backend_projects = [
     {
+        name: "Fibre Channel research project",
+        path: URLs.dbus,
+        id: "fc",
+        git: ""
+    },
+    {
         name: "DBus client-server",
         path: URLs.dbus,
         id: "dbus",
@@ -125,6 +131,13 @@ export const getBackEndExtra = (projectId, t) => {
             history: t('projects.dbus.history'),
             ps: t('projects.dbus.ps'),
             favicon: c
+        },
+        fc: {
+            short: t('projects.fc.short'),
+            body: t('projects.fc.body'),
+            history: t('projects.fc.history'),
+            ps: t('projects.fc.ps'),
+            favicon: verilog
         }
     };
 

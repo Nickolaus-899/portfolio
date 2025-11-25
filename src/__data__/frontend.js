@@ -11,7 +11,7 @@ export const frontend_projects = [
         name: "Enterfront",
         path: URLs.enterfront,
         id: 'enterfront',
-        link: "https://dev.bro-js.ru/enterfront/",
+        // link: "https://dev.bro-js.ru/enterfront/",
         video: "https://youtu.be/IvHf3Ibb4-8",
         git: "https://git.bro-js.ru/enterfront/front"
     },
@@ -38,15 +38,15 @@ export const frontend_projects = [
         link: "",
         video: "https://youtu.be/CgztJYxvnhU",
         git: "https://gitlab.pg.innopolis.university/a.savchenko/innobookingbotfrontend"
-    },
-    {
-        name: "Portfolio",
-        path: URLs.portfolio,
-        id: 'portfolio',
-        link: "https://nikolaus-portfolio.online/",
-        video: "",
-        git: "https://github.com/Nickolaus-899/portfolio"
     }
+    // {
+    //     name: "Portfolio",
+    //     path: URLs.portfolio,
+    //     id: 'portfolio',
+    //     link: "https://nikolaus-portfolio.online/",
+    //     video: "",
+    //     git: "https://github.com/Nickolaus-899/portfolio"
+    // }
 ]
 
 export const getFrontEndExtra = (projectId, t) => {

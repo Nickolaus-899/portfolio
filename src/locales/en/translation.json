@@ -14,10 +14,16 @@
     "result": "GPA: 4.80"
   },
   "hsk": {
-    "name": "Summer School in Munich",
+    "name": "Summer School in Munich (Germany)",
     "duration": "the whole August 2024",
-    "field": "Learning German at Ludwig-Maximillian University (MISU)",
+    "field": "Learning German at the Ludwig-Maximillian University (MISU)",
     "result": "Completed B1.2"
+  },
+  "zhu": {
+    "name": "Summer Program in Zhuhai (China)",
+    "duration": "July 2025",
+    "field": "Global Leadership at the Beijing Institute of Technology (BIT)",
+    "result": "Completed successfully"
   },
   "inno-lyc": {
     "name": "Innopolis Lyceum",
@@ -61,9 +67,15 @@
   "experience": {
     "itdep": {
       "name": "Internship in IT Department",
-      "duration": "from May 25, 2025",
+      "duration": "May 25 - July 1 of 2025",
       "field": "IT support, server room work, various basic tasks",
       "interesting": "Investigated network equipment, created and hosted a Telegram bot for the department that sends notifications to employees"
+    },
+    "sysadmin": {
+      "name": "System Administrator (IT Department)",
+      "duration": "from Sep 17, 2025",
+      "field": "IT support, setup of operating systems, solving network issues",
+      "interesting": "Manage OS installations, hardware/software issues resolving, prepare IT infrastructure for university events and Olympiads, connecting peripheral devices, helping with different issues"
     }
   },
   "projects": {
@@ -144,6 +156,12 @@
       "body": "I tried to build a high-quality frontend project, following best practices. Moreover, to sharpen my skills, I deployed this page on my personal server using Docker and configured HTTPS access using certificates.",
       "history": "Yes, this is about the portfolio page you’re currently viewing. I developed it myself using React to showcase my projects and accomplishments. I used the Vercel hosting platform and connected it to the repository.",
       "ps": "I'll include a link to a 'mirror' of this portfolio page (with .online instead of .ru). Since I update it manually, it may lag behind the main version."
+    },
+    "fc": {
+      "short": "Development of an FPGA-Based Network Analyzer/Router",
+      "body": "We are developing hardware solutions using Verilog and C for an industrial partner. Experience of system administrator helps me to solve together with the team complex systems-level problems, such as implementing a custom DHCP server for network boot.",
+      "history": "I participate in commercial project together with two involved students. This project is aimed at creating a fiber channel FPGA-driven commutator later upgraded to router and later to analyzer.",
+      "ps": "Project is still in progress."
     }
   },
   "hackathons": {

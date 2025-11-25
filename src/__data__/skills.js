@@ -34,6 +34,14 @@ export const educations = (t) => [
         link: "https://www2.daad.de/deutschland/studienangebote/sommerkurse/de/detail/4897/"
     },
     {
+        name: t('zhu.name'),
+        duration: t('zhu.duration'),
+        field: t('zhu.field'),
+        result: t('zhu.result'),
+        extra: "edu-zhu",
+        link: "https://isc.bit.edu.cn/admissionsaid/spss/languageulture/index.htm"
+    },
+    {
         name: t('inno-lyc.name'),
         duration: t('inno-lyc.duration'),
         field: t('inno-lyc.field'),

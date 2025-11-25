@@ -19,7 +19,7 @@
     background-size: cover;
     background-position: center;
 
-    filter: blur(3px);
+    filter: blur(4px) brightness(60%);
 
     position: absolute;
 

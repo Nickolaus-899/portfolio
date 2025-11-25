@@ -8,7 +8,7 @@ import {hackathons, getHackathonExtra} from "../../__data__/hackathons";
 
 const ProjectsCollection = () => {
     const frontHovers = generateFeatures('frcard', 4);
-    const backHovers = generateFeatures('bccard', 8);
+    const backHovers = generateFeatures('bccard', 9);
     const hackathonHovers = generateFeatures('htcard', 5);
 
   return (
