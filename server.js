@@ -1,39 +1,18 @@
 const express = require('express');
 const path = require('path');
-const fs = require('fs');
-const https = require('https');
 
 const app = express();
-const HTTP_PORT = 80; // HTTP
-const HTTPS_PORT = 443; // HTTPS
+const PORT = 3005; // Node.js слушает HTTP, nginx проксирует на него
 
-const KEY_PATH = '/etc/letsencrypt/live/nikolaus-portfolio.online'
-// /etc/letsencrypt/live/nikolaus-portfolio.online
-
-const privateKey = fs.readFileSync(`${KEY_PATH}/privkey.pem`, 'utf8');
-const certificate = fs.readFileSync(`${KEY_PATH}/cert.pem`, 'utf8');
-const ca = fs.readFileSync(`${KEY_PATH}/chain.pem`, 'utf8');
-
-const credentials = { key: privateKey, cert: certificate, ca: ca };
-
+// Отдаём статические файлы React
 app.use(express.static(path.join(__dirname, 'build')));
 
-// Redirect HTTP to HTTPS
-const httpApp = express();
-httpApp.use((req, res) => {
-    res.redirect(`https://${req.hostname}${req.url}`);
-});
-
+// Все пути на index.html (React SPA)
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-// HTTP server
-httpApp.listen(HTTP_PORT, () => {
-    console.log(`HTTP server running and redirecting to HTTPS on port ${HTTP_PORT}`);
-});
-
-// HTTPS server
-https.createServer(credentials, app).listen(HTTPS_PORT, () => {
-    console.log(`HTTPS server running on port ${HTTPS_PORT}`);
+// Запуск HTTP сервера
+app.listen(PORT, () => {
+    console.log(`Node.js server running on port ${PORT}`);
 });
