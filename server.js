@@ -13,6 +13,6 @@ app.get('*', (req, res) => {
 });
 
 // Запуск HTTP сервера
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Node.js server running on port ${PORT}`);
 });
